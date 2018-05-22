@@ -1,0 +1,2 @@
+C:\Users\Randy\Desktop\new-source\new - Web Sockets chat - Server\Web Sockets chat - Server\WebSocketServer\bin\Debug\WebSocketServer.exe.config
+C:\Users\Randy\Desktop\new-source\new - Web Sockets chat - Server\Web Sockets chat - Server\WebSocketServer\obj\Debug\WebSocketServer.csprojResolveAssemblyReference.cache

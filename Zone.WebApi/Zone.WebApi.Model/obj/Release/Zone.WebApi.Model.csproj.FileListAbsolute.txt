@@ -1,0 +1,5 @@
+E:\GitHub\Zone.Webapi\Zone.WebApi\Zone.WebApi.Model\bin\Release\Zone.WebApi.Model.dll
+E:\GitHub\Zone.Webapi\Zone.WebApi\Zone.WebApi.Model\bin\Release\Zone.WebApi.Model.pdb
+E:\GitHub\Zone.Webapi\Zone.WebApi\Zone.WebApi.Model\obj\Release\Zone.WebApi.Model.dll
+E:\GitHub\Zone.Webapi\Zone.WebApi\Zone.WebApi.Model\obj\Release\Zone.WebApi.Model.pdb
+E:\GitHub\Zone.Webapi\Zone.WebApi\Zone.WebApi.Model\obj\Release\Zone.WebApi.Model.csprojResolveAssemblyReference.cache

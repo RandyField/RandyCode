@@ -1,0 +1,26 @@
+[2018-05-16 15:07:24,540]  5 -- ERROR -- Error [Login] -- 登录异常，异常信息:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Zone.WebApi.Api.Controllers.LoginController.Login(JObject data) 位置 e:\GitHub\Zone.Webapi\Zone.WebApi\Zone.WebApi.Api\Controllers\LoginController.cs:行号 47
+[2018-05-16 15:16:35,567]  5 -- ERROR -- Error [Login] -- 登录异常，异常信息:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Zone.WebApi.Api.Controllers.LoginController.Login(JObject data) 位置 e:\GitHub\Zone.Webapi\Zone.WebApi\Zone.WebApi.Api\Controllers\LoginController.cs:行号 47
+[2018-05-16 15:30:53,293]  6 -- ERROR -- Error [Login] -- 登录异常，异常信息:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Zone.WebApi.Api.Controllers.LoginController.Login(JObject data) 位置 e:\GitHub\Zone.Webapi\Zone.WebApi\Zone.WebApi.Api\Controllers\LoginController.cs:行号 47
+[2018-05-16 15:35:17,233]  6 -- ERROR -- Error [Login] -- 登录异常，异常信息:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Zone.WebApi.Api.Controllers.LoginController.Login(JObject data) 位置 e:\GitHub\Zone.Webapi\Zone.WebApi\Zone.WebApi.Api\Controllers\LoginController.cs:行号 47
+[2018-05-16 15:35:36,309]  17 -- ERROR -- Error [Login] -- 登录异常，异常信息:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Zone.WebApi.Api.Controllers.LoginController.Login(JObject data) 位置 e:\GitHub\Zone.Webapi\Zone.WebApi\Zone.WebApi.Api\Controllers\LoginController.cs:行号 47
+[2018-05-16 15:37:51,177]  23 -- ERROR -- Error [Login] -- 登录异常，异常信息:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Zone.WebApi.Api.Controllers.LoginController.Login(JObject data) 位置 e:\GitHub\Zone.Webapi\Zone.WebApi\Zone.WebApi.Api\Controllers\LoginController.cs:行号 47
+[2018-05-16 15:39:19,349]  27 -- ERROR -- Error [Login] -- 登录异常，异常信息:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Zone.WebApi.Api.Controllers.LoginController.Login(JObject data) 位置 e:\GitHub\Zone.Webapi\Zone.WebApi\Zone.WebApi.Api\Controllers\LoginController.cs:行号 47
+[2018-05-16 15:41:50,518]  32 -- ERROR -- Error [Login] -- 登录异常，异常信息:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Zone.WebApi.Api.Controllers.LoginController.Login(JObject data) 位置 e:\GitHub\Zone.Webapi\Zone.WebApi\Zone.WebApi.Api\Controllers\LoginController.cs:行号 47
+[2018-05-16 15:43:21,789]  31 -- ERROR -- Error [Login] -- 登录异常，异常信息:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Zone.WebApi.Api.Controllers.LoginController.Login(JObject data) 位置 e:\GitHub\Zone.Webapi\Zone.WebApi\Zone.WebApi.Api\Controllers\LoginController.cs:行号 47
+[2018-05-16 16:02:01,240]  10 -- ERROR -- Error [Login] -- 登录异常，异常信息:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Zone.WebApi.Api.Controllers.LoginController.Login(JObject data) 位置 e:\GitHub\Zone.Webapi\Zone.WebApi\Zone.WebApi.Api\Controllers\LoginController.cs:行号 70
+[2018-05-16 16:10:03,804]  13 -- ERROR -- Error [Login] -- 登录异常，异常信息:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Zone.WebApi.Api.Controllers.LoginController.Login(JObject data) 位置 e:\GitHub\Zone.Webapi\Zone.WebApi\Zone.WebApi.Api\Controllers\LoginController.cs:行号 63
+[2018-05-16 16:21:53,106]  8 -- ERROR -- Error [Login] -- 登录异常，异常信息:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Zone.WebApi.Api.Controllers.LoginController.Login(JObject data) 位置 e:\GitHub\Zone.Webapi\Zone.WebApi\Zone.WebApi.Api\Controllers\LoginController.cs:行号 70
+[2018-05-16 16:22:34,594]  11 -- ERROR -- Error [Login] -- 登录异常，异常信息:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Zone.WebApi.Api.Controllers.LoginController.Login(JObject data) 位置 e:\GitHub\Zone.Webapi\Zone.WebApi\Zone.WebApi.Api\Controllers\LoginController.cs:行号 70

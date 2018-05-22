@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerialPortHelper", "SerialPortHelper\SerialPortHelper.csproj", "{98F918EB-AB88-4B6C-AE16-FD063CC821D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{579BAD69-A2B5-4FED-A904-07AEA557E120}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{98F918EB-AB88-4B6C-AE16-FD063CC821D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98F918EB-AB88-4B6C-AE16-FD063CC821D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98F918EB-AB88-4B6C-AE16-FD063CC821D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98F918EB-AB88-4B6C-AE16-FD063CC821D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{579BAD69-A2B5-4FED-A904-07AEA557E120}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{579BAD69-A2B5-4FED-A904-07AEA557E120}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{579BAD69-A2B5-4FED-A904-07AEA557E120}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{579BAD69-A2B5-4FED-A904-07AEA557E120}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

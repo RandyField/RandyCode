@@ -1,0 +1,10 @@
+/home/randy/vscode/github/randy-net-core-sln/emptyaspnetcore/bin/Debug/netcoreapp2.0/emptyaspnetcore.deps.json
+/home/randy/vscode/github/randy-net-core-sln/emptyaspnetcore/bin/Debug/netcoreapp2.0/emptyaspnetcore.runtimeconfig.json
+/home/randy/vscode/github/randy-net-core-sln/emptyaspnetcore/bin/Debug/netcoreapp2.0/emptyaspnetcore.runtimeconfig.dev.json
+/home/randy/vscode/github/randy-net-core-sln/emptyaspnetcore/bin/Debug/netcoreapp2.0/emptyaspnetcore.dll
+/home/randy/vscode/github/randy-net-core-sln/emptyaspnetcore/bin/Debug/netcoreapp2.0/emptyaspnetcore.pdb
+/home/randy/vscode/github/randy-net-core-sln/emptyaspnetcore/obj/Debug/netcoreapp2.0/emptyaspnetcore.csproj.CoreCompileInputs.cache
+/home/randy/vscode/github/randy-net-core-sln/emptyaspnetcore/obj/Debug/netcoreapp2.0/emptyaspnetcore.AssemblyInfoInputs.cache
+/home/randy/vscode/github/randy-net-core-sln/emptyaspnetcore/obj/Debug/netcoreapp2.0/emptyaspnetcore.AssemblyInfo.cs
+/home/randy/vscode/github/randy-net-core-sln/emptyaspnetcore/obj/Debug/netcoreapp2.0/emptyaspnetcore.dll
+/home/randy/vscode/github/randy-net-core-sln/emptyaspnetcore/obj/Debug/netcoreapp2.0/emptyaspnetcore.pdb

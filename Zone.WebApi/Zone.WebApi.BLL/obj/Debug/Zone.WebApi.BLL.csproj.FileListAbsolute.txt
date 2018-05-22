@@ -1,0 +1,17 @@
+E:\GitHub\Zone.Webapi\Zone.WebApi\Zone.WebApi.BLL\bin\Debug\Zone.WebApi.BLL.dll
+E:\GitHub\Zone.Webapi\Zone.WebApi\Zone.WebApi.BLL\bin\Debug\Zone.WebApi.BLL.pdb
+E:\GitHub\Zone.Webapi\Zone.WebApi\Zone.WebApi.BLL\bin\Debug\Dapper.dll
+E:\GitHub\Zone.Webapi\Zone.WebApi\Zone.WebApi.BLL\bin\Debug\Zone.WebApi.Common.dll
+E:\GitHub\Zone.Webapi\Zone.WebApi\Zone.WebApi.BLL\bin\Debug\Zone.WebApi.DAL.dll
+E:\GitHub\Zone.Webapi\Zone.WebApi\Zone.WebApi.BLL\bin\Debug\Zone.WebApi.IDAL.dll
+E:\GitHub\Zone.Webapi\Zone.WebApi\Zone.WebApi.BLL\bin\Debug\Zone.WebApi.Model.dll
+E:\GitHub\Zone.Webapi\Zone.WebApi\Zone.WebApi.BLL\bin\Debug\log4net.dll
+E:\GitHub\Zone.Webapi\Zone.WebApi\Zone.WebApi.BLL\bin\Debug\Zone.WebApi.Common.pdb
+E:\GitHub\Zone.Webapi\Zone.WebApi\Zone.WebApi.BLL\bin\Debug\Zone.WebApi.DAL.pdb
+E:\GitHub\Zone.Webapi\Zone.WebApi\Zone.WebApi.BLL\bin\Debug\Zone.WebApi.IDAL.pdb
+E:\GitHub\Zone.Webapi\Zone.WebApi\Zone.WebApi.BLL\bin\Debug\Zone.WebApi.Model.pdb
+E:\GitHub\Zone.Webapi\Zone.WebApi\Zone.WebApi.BLL\bin\Debug\Dapper.xml
+E:\GitHub\Zone.Webapi\Zone.WebApi\Zone.WebApi.BLL\bin\Debug\log4net.xml
+E:\GitHub\Zone.Webapi\Zone.WebApi\Zone.WebApi.BLL\obj\Debug\Zone.WebApi.BLL.csprojResolveAssemblyReference.cache
+E:\GitHub\Zone.Webapi\Zone.WebApi\Zone.WebApi.BLL\obj\Debug\Zone.WebApi.BLL.dll
+E:\GitHub\Zone.Webapi\Zone.WebApi\Zone.WebApi.BLL\obj\Debug\Zone.WebApi.BLL.pdb

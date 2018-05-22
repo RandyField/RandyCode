@@ -1,0 +1,6 @@
+E:\GitHub\C#Practice\Practice\Practice-delegate-plug-in\obj\Debug\Practice-delegate-plug-in.csprojResolveAssemblyReference.cache
+E:\GitHub\C#Practice\Practice\Practice-delegate-plug-in\bin\Debug\Practice-delegate-plug-in.exe.config
+E:\GitHub\C#Practice\Practice\Practice-delegate-plug-in\bin\Debug\Practice-delegate-plug-in.exe
+E:\GitHub\C#Practice\Practice\Practice-delegate-plug-in\bin\Debug\Practice-delegate-plug-in.pdb
+E:\GitHub\C#Practice\Practice\Practice-delegate-plug-in\obj\Debug\Practice-delegate-plug-in.exe
+E:\GitHub\C#Practice\Practice\Practice-delegate-plug-in\obj\Debug\Practice-delegate-plug-in.pdb

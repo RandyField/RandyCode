@@ -1,0 +1,9 @@
+E:\GitHub\Zone.Webapi\Zone.WebApi\Zone.WebApi.DAL\bin\Release\Zone.WebApi.DAL.dll
+E:\GitHub\Zone.Webapi\Zone.WebApi\Zone.WebApi.DAL\bin\Release\Zone.WebApi.DAL.pdb
+E:\GitHub\Zone.Webapi\Zone.WebApi\Zone.WebApi.DAL\bin\Release\Dapper.dll
+E:\GitHub\Zone.Webapi\Zone.WebApi\Zone.WebApi.DAL\bin\Release\Zone.WebApi.IDAL.dll
+E:\GitHub\Zone.Webapi\Zone.WebApi\Zone.WebApi.DAL\bin\Release\Zone.WebApi.IDAL.pdb
+E:\GitHub\Zone.Webapi\Zone.WebApi\Zone.WebApi.DAL\bin\Release\Dapper.xml
+E:\GitHub\Zone.Webapi\Zone.WebApi\Zone.WebApi.DAL\obj\Release\Zone.WebApi.DAL.csprojResolveAssemblyReference.cache
+E:\GitHub\Zone.Webapi\Zone.WebApi\Zone.WebApi.DAL\obj\Release\Zone.WebApi.DAL.dll
+E:\GitHub\Zone.Webapi\Zone.WebApi\Zone.WebApi.DAL\obj\Release\Zone.WebApi.DAL.pdb

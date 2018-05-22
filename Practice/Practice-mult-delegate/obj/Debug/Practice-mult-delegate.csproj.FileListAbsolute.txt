@@ -1,0 +1,6 @@
+E:\GitHub\C#Practice\Practice\Practice-mult-delegate\bin\Debug\Practice-mult-delegate.exe.config
+E:\GitHub\C#Practice\Practice\Practice-mult-delegate\bin\Debug\Practice-mult-delegate.exe
+E:\GitHub\C#Practice\Practice\Practice-mult-delegate\bin\Debug\Practice-mult-delegate.pdb
+E:\GitHub\C#Practice\Practice\Practice-mult-delegate\obj\Debug\Practice-mult-delegate.csprojResolveAssemblyReference.cache
+E:\GitHub\C#Practice\Practice\Practice-mult-delegate\obj\Debug\Practice-mult-delegate.exe
+E:\GitHub\C#Practice\Practice\Practice-mult-delegate\obj\Debug\Practice-mult-delegate.pdb

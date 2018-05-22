@@ -1,0 +1,8 @@
+E:\GitHub\netcore-mvc-ef-learn\MODEL\bin\Release\netstandard2.0\MODEL.deps.json
+E:\GitHub\netcore-mvc-ef-learn\MODEL\bin\Release\netstandard2.0\MODEL.dll
+E:\GitHub\netcore-mvc-ef-learn\MODEL\bin\Release\netstandard2.0\MODEL.pdb
+E:\GitHub\netcore-mvc-ef-learn\MODEL\obj\Release\netstandard2.0\MODEL.csproj.CoreCompileInputs.cache
+E:\GitHub\netcore-mvc-ef-learn\MODEL\obj\Release\netstandard2.0\MODEL.AssemblyInfoInputs.cache
+E:\GitHub\netcore-mvc-ef-learn\MODEL\obj\Release\netstandard2.0\MODEL.AssemblyInfo.cs
+E:\GitHub\netcore-mvc-ef-learn\MODEL\obj\Release\netstandard2.0\MODEL.dll
+E:\GitHub\netcore-mvc-ef-learn\MODEL\obj\Release\netstandard2.0\MODEL.pdb

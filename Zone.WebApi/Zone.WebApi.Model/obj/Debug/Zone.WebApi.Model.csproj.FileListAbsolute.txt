@@ -1,0 +1,4 @@
+E:\GitHub\Zone.Webapi\Zone.WebApi\Zone.WebApi.Model\bin\Debug\Zone.WebApi.Model.dll
+E:\GitHub\Zone.Webapi\Zone.WebApi\Zone.WebApi.Model\bin\Debug\Zone.WebApi.Model.pdb
+E:\GitHub\Zone.Webapi\Zone.WebApi\Zone.WebApi.Model\obj\Debug\Zone.WebApi.Model.dll
+E:\GitHub\Zone.Webapi\Zone.WebApi\Zone.WebApi.Model\obj\Debug\Zone.WebApi.Model.pdb

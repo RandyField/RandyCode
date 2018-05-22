@@ -1,0 +1,11 @@
+E:\GitHub\SerialPortDev\Solution1\Test\bin\Debug\Test.exe.config
+E:\GitHub\SerialPortDev\Solution1\Test\bin\Debug\Test.exe
+E:\GitHub\SerialPortDev\Solution1\Test\bin\Debug\Test.pdb
+E:\GitHub\SerialPortDev\Solution1\Test\bin\Debug\SerialPortHelper.dll
+E:\GitHub\SerialPortDev\Solution1\Test\bin\Debug\SerialPortHelper.pdb
+E:\GitHub\SerialPortDev\Solution1\Test\obj\Debug\Test.csprojResolveAssemblyReference.cache
+E:\GitHub\SerialPortDev\Solution1\Test\obj\Debug\Test.Form1.resources
+E:\GitHub\SerialPortDev\Solution1\Test\obj\Debug\Test.Properties.Resources.resources
+E:\GitHub\SerialPortDev\Solution1\Test\obj\Debug\Test.csproj.GenerateResource.Cache
+E:\GitHub\SerialPortDev\Solution1\Test\obj\Debug\Test.exe
+E:\GitHub\SerialPortDev\Solution1\Test\obj\Debug\Test.pdb

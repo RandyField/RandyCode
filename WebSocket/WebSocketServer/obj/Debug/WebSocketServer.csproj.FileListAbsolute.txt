@@ -1,0 +1,6 @@
+C:\Users\Randy\Desktop\new-source\new - Web Sockets chat - Server\WebSocketServer\bin\Debug\WebSocketServer.exe.config
+C:\Users\Randy\Desktop\new-source\new - Web Sockets chat - Server\WebSocketServer\obj\Debug\WebSocketServer.csprojResolveAssemblyReference.cache
+C:\Users\Randy\Desktop\new-source\new - Web Sockets chat - Server\WebSocketServer\bin\Debug\WebSocketServer.exe
+C:\Users\Randy\Desktop\new-source\new - Web Sockets chat - Server\WebSocketServer\bin\Debug\WebSocketServer.pdb
+C:\Users\Randy\Desktop\new-source\new - Web Sockets chat - Server\WebSocketServer\obj\Debug\WebSocketServer.exe
+C:\Users\Randy\Desktop\new-source\new - Web Sockets chat - Server\WebSocketServer\obj\Debug\WebSocketServer.pdb

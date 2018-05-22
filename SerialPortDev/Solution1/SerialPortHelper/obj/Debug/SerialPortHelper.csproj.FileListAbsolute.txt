@@ -1,0 +1,5 @@
+E:\GitHub\SerialPortDev\Solution1\SerialPortHelper\bin\Debug\SerialPortHelper.dll
+E:\GitHub\SerialPortDev\Solution1\SerialPortHelper\bin\Debug\SerialPortHelper.pdb
+E:\GitHub\SerialPortDev\Solution1\SerialPortHelper\obj\Debug\SerialPortHelper.csprojResolveAssemblyReference.cache
+E:\GitHub\SerialPortDev\Solution1\SerialPortHelper\obj\Debug\SerialPortHelper.dll
+E:\GitHub\SerialPortDev\Solution1\SerialPortHelper\obj\Debug\SerialPortHelper.pdb

@@ -1,0 +1,17 @@
+E:\GitHub\Zone.Webapi\Zone.WebApi\Zone.WebApi.BLL\bin\Release\Zone.WebApi.BLL.dll
+E:\GitHub\Zone.Webapi\Zone.WebApi\Zone.WebApi.BLL\bin\Release\Zone.WebApi.BLL.pdb
+E:\GitHub\Zone.Webapi\Zone.WebApi\Zone.WebApi.BLL\bin\Release\Dapper.dll
+E:\GitHub\Zone.Webapi\Zone.WebApi\Zone.WebApi.BLL\bin\Release\Zone.WebApi.Common.dll
+E:\GitHub\Zone.Webapi\Zone.WebApi\Zone.WebApi.BLL\bin\Release\Zone.WebApi.DAL.dll
+E:\GitHub\Zone.Webapi\Zone.WebApi\Zone.WebApi.BLL\bin\Release\Zone.WebApi.IDAL.dll
+E:\GitHub\Zone.Webapi\Zone.WebApi\Zone.WebApi.BLL\bin\Release\Zone.WebApi.Model.dll
+E:\GitHub\Zone.Webapi\Zone.WebApi\Zone.WebApi.BLL\bin\Release\log4net.dll
+E:\GitHub\Zone.Webapi\Zone.WebApi\Zone.WebApi.BLL\bin\Release\Zone.WebApi.Common.pdb
+E:\GitHub\Zone.Webapi\Zone.WebApi\Zone.WebApi.BLL\bin\Release\Zone.WebApi.DAL.pdb
+E:\GitHub\Zone.Webapi\Zone.WebApi\Zone.WebApi.BLL\bin\Release\Zone.WebApi.IDAL.pdb
+E:\GitHub\Zone.Webapi\Zone.WebApi\Zone.WebApi.BLL\bin\Release\Zone.WebApi.Model.pdb
+E:\GitHub\Zone.Webapi\Zone.WebApi\Zone.WebApi.BLL\bin\Release\Dapper.xml
+E:\GitHub\Zone.Webapi\Zone.WebApi\Zone.WebApi.BLL\bin\Release\log4net.xml
+E:\GitHub\Zone.Webapi\Zone.WebApi\Zone.WebApi.BLL\obj\Release\Zone.WebApi.BLL.csprojResolveAssemblyReference.cache
+E:\GitHub\Zone.Webapi\Zone.WebApi\Zone.WebApi.BLL\obj\Release\Zone.WebApi.BLL.dll
+E:\GitHub\Zone.Webapi\Zone.WebApi\Zone.WebApi.BLL\obj\Release\Zone.WebApi.BLL.pdb

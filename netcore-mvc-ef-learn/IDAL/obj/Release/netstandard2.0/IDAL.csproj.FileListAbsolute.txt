@@ -1,0 +1,8 @@
+E:\GitHub\netcore-mvc-ef-learn\IDAL\bin\Release\netstandard2.0\IDAL.deps.json
+E:\GitHub\netcore-mvc-ef-learn\IDAL\bin\Release\netstandard2.0\IDAL.dll
+E:\GitHub\netcore-mvc-ef-learn\IDAL\bin\Release\netstandard2.0\IDAL.pdb
+E:\GitHub\netcore-mvc-ef-learn\IDAL\obj\Release\netstandard2.0\IDAL.csproj.CoreCompileInputs.cache
+E:\GitHub\netcore-mvc-ef-learn\IDAL\obj\Release\netstandard2.0\IDAL.AssemblyInfoInputs.cache
+E:\GitHub\netcore-mvc-ef-learn\IDAL\obj\Release\netstandard2.0\IDAL.AssemblyInfo.cs
+E:\GitHub\netcore-mvc-ef-learn\IDAL\obj\Release\netstandard2.0\IDAL.dll
+E:\GitHub\netcore-mvc-ef-learn\IDAL\obj\Release\netstandard2.0\IDAL.pdb

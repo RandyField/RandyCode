@@ -1,0 +1,12 @@
+/home/randy/vscode/github/randy-net-core-sln/Web
+--output-path=obj/Debug/netcoreapp2.0/
+--application-name=Web
+--content-root=/home/randy/vscode/github/randy-net-core-sln/Web
+--file=/home/randy/vscode/github/randy-net-core-sln/Web/Views/Home/About.cshtml
+--file=/home/randy/vscode/github/randy-net-core-sln/Web/Views/Home/Contact.cshtml
+--file=/home/randy/vscode/github/randy-net-core-sln/Web/Views/Home/Index.cshtml
+--file=/home/randy/vscode/github/randy-net-core-sln/Web/Views/Shared/Error.cshtml
+--file=/home/randy/vscode/github/randy-net-core-sln/Web/Views/Shared/_Layout.cshtml
+--file=/home/randy/vscode/github/randy-net-core-sln/Web/Views/Shared/_ValidationScriptsPartial.cshtml
+--file=/home/randy/vscode/github/randy-net-core-sln/Web/Views/_ViewImports.cshtml
+--file=/home/randy/vscode/github/randy-net-core-sln/Web/Views/_ViewStart.cshtml

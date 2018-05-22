@@ -1,0 +1,9 @@
+E:\GitHub\Zone.Webapi\Zone.WebApi\Zone.WebApi.Common\bin\Release\Zone.WebApi.Common.dll
+E:\GitHub\Zone.Webapi\Zone.WebApi\Zone.WebApi.Common\bin\Release\Zone.WebApi.Common.pdb
+E:\GitHub\Zone.Webapi\Zone.WebApi\Zone.WebApi.Common\bin\Release\Dapper.dll
+E:\GitHub\Zone.Webapi\Zone.WebApi\Zone.WebApi.Common\bin\Release\log4net.dll
+E:\GitHub\Zone.Webapi\Zone.WebApi\Zone.WebApi.Common\bin\Release\Dapper.xml
+E:\GitHub\Zone.Webapi\Zone.WebApi\Zone.WebApi.Common\bin\Release\log4net.xml
+E:\GitHub\Zone.Webapi\Zone.WebApi\Zone.WebApi.Common\obj\Release\Zone.WebApi.Common.dll
+E:\GitHub\Zone.Webapi\Zone.WebApi\Zone.WebApi.Common\obj\Release\Zone.WebApi.Common.pdb
+E:\GitHub\Zone.Webapi\Zone.WebApi\Zone.WebApi.Common\obj\Release\Zone.WebApi.Common.csprojResolveAssemblyReference.cache

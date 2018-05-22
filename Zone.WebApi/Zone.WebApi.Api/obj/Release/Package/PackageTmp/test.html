@@ -1,0 +1,91 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <script src="Scripts/jquery-1.10.2.min.js"></script>
+</head>
+<body>
+    <p>
+        <button onclick="login()">登录</button>
+        <button onclick="filter()">测试管道过滤</button>
+        <button onclick="add()">新增用户</button>
+    </p>
+    <script type="text/javascript">
+        //$(function () {
+
+        //    var ss = { username: "admin", password: "admin"};
+        //    var data = ss;
+        //    $.ajax({
+        //        type: "post",
+        //        url: 'api/user/account/login ',
+        //        data: data,
+        //        //contentType: "application/json",
+        //        success: function (data) {
+
+        //        }
+        //    });
+        //})
+
+        var token = "";
+
+        function login() {
+            var ss = { username: "admin", password: "admin" };
+            var data = ss;
+            $.ajax({
+                type: "post",
+                url: 'api/user/account/login ',
+                data: data,
+                //contentType: "application/json",
+                success: function (data) {
+                    alert(data.return_msg);
+                    token = data.return_info.token;
+                }
+            });
+        }
+
+        function filter() {
+            var ss = { Token: token };
+            var data = ss;
+            $.ajax({
+                type: "post",
+                url: 'api/Account/add ',
+                data: data,
+                //contentType: "application/json",
+                success: function (data) {
+                    alert(data.return_msg);
+                    token = data.return_info.token;
+                }
+            });
+        }
+
+        function add() {
+            var ss = { Token: token,username:"Randy",password:"123456",qq:"287572291" };
+            var data = ss;
+            $.ajax({
+                type: "post",
+                url: 'api/Account/add ',
+                data: data,
+                //contentType: "application/json",
+                success: function (data) {
+                    alert(data.return_msg);
+                    token = data.return_info.token;
+                }
+            });
+        }
+
+        function getSessionId() {      
+            var c_name = 'ASP.NET_SessionId';
+            if (document.cookie.length > 0) {
+                c_start = document.cookie.indexOf(c_name + "=")
+                if (c_start != -1) {
+                    c_start = c_start + c_name.length + 1
+                    c_end = document.cookie.indexOf(";", c_start)
+                    if (c_end == -1) c_end = document.cookie.length
+                    return unescape(document.cookie.substring(c_start, c_end));
+                }
+            }
+        }
+    </script>
+</body>
+</html>

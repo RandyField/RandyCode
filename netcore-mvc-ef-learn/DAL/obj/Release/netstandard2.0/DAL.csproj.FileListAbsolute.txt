@@ -1,0 +1,8 @@
+E:\GitHub\netcore-mvc-ef-learn\DAL\bin\Release\netstandard2.0\DAL.deps.json
+E:\GitHub\netcore-mvc-ef-learn\DAL\bin\Release\netstandard2.0\DAL.dll
+E:\GitHub\netcore-mvc-ef-learn\DAL\bin\Release\netstandard2.0\DAL.pdb
+E:\GitHub\netcore-mvc-ef-learn\DAL\obj\Release\netstandard2.0\DAL.csproj.CoreCompileInputs.cache
+E:\GitHub\netcore-mvc-ef-learn\DAL\obj\Release\netstandard2.0\DAL.AssemblyInfoInputs.cache
+E:\GitHub\netcore-mvc-ef-learn\DAL\obj\Release\netstandard2.0\DAL.AssemblyInfo.cs
+E:\GitHub\netcore-mvc-ef-learn\DAL\obj\Release\netstandard2.0\DAL.dll
+E:\GitHub\netcore-mvc-ef-learn\DAL\obj\Release\netstandard2.0\DAL.pdb
