@@ -1,0 +1,10 @@
+E:\TestSolution\RecreateXML\RecreateXML\bin\Release\RecreateXML.exe.config
+E:\TestSolution\RecreateXML\RecreateXML\bin\Release\RecreateXML.exe
+E:\TestSolution\RecreateXML\RecreateXML\bin\Release\RecreateXML.pdb
+E:\TestSolution\RecreateXML\RecreateXML\bin\Release\CoreAudioApi.dll
+E:\TestSolution\RecreateXML\RecreateXML\obj\Release\RecreateXML.exe
+E:\TestSolution\RecreateXML\RecreateXML\obj\Release\RecreateXML.pdb
+E:\TestSolution\RecreateXML\RecreateXML\obj\Release\RecreateXML.csprojResolveAssemblyReference.cache
+E:\GitHub\RecreateXML\RecreateXML\bin\Release\RecreateXML.exe.config
+E:\GitHub\RecreateXML\RecreateXML\obj\Release\RecreateXML.exe
+E:\GitHub\RecreateXML\RecreateXML\obj\Release\RecreateXML.pdb

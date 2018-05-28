@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <script src="Scripts/jquery-1.10.2.min.js"></script>
+</head>
+<body>
+    <button style="height:20px;" onclick="test();">二维码是否过期</button>
+
+    <button style="height:20px;" onclick="count();">二维码扫码计数</button>
+
+    <button style="height:20px;" onclick="getaward();">获取奖品</button>
+
+    <button style="height:20px;" onclick="getaward1();">获取奖品</button>
+
+    <button style="height:20px;" onclick="receive();">领取奖品</button>
+</body>
+
+</html>
+<script type="text/javascript">
+    function test() {
+        var ss = { guid: "testqrcode" };
+        //var data = JSON.stringify(ss);
+        $.ajax({
+            type: "post",
+            url: ' api/qrcode/is/outofdate ',
+            contentType: "application/x-www-form-urlencoded",
+            data: ss,
+            success: function (data) {
+                alert(data.return_code);
+                alert(data.return_msg);
+            }
+        });
+    }
+
+    function count() {
+        var ss = { guid: "testqrcode" };
+        var data = JSON.stringify(ss);
+        $.ajax({
+            type: "post",
+            url: ' api/qrcode/is/outofdate ',
+            data: data,
+            contentType: "application/json",
+            success: function (data) {
+                alert(data.return_code);
+                alert(data.return_msg);
+            }
+        });
+    }
+    var testawardod="";
+    var testactivityid="";
+    function getaward() {
+        var ss = { activityid: "429", phone: "13880825228" };
+        var data = JSON.stringify(ss);
+        $.ajax({
+            type: "post",
+            url: ' api/award/phone/ ',
+            data: data,
+            contentType: "application/json",
+            success: function (data) {
+                alert(data.return_code);
+                alert(data.return_msg);
+                testawardod = return_info.AwardDetailId;
+                testactivityid = return_info.ActivityId;
+            }
+        });
+    }
+
+    function getaward1(){
+        $.ajax({
+            type: "get",
+            url: ' api/award/activity/'+testactivityid+'/id/'+testawardod+'/',
+            contentType: "application/json",
+            success: function (data) {
+                alert(data.return_code);
+                alert(data.return_msg);
+            }
+        });
+    }
+
+    function receive() {
+        var ss = { activityid: "465", awardid: "383702", phone: "13880825220" };
+        var data = JSON.stringify(ss);
+        $.ajax({
+            type: "post",
+            url: ' api/award/receive/phone ',
+            data: data,
+            contentType: "application/json",
+            success: function (data) {
+                
+            }
+        });
+    }
+</script>

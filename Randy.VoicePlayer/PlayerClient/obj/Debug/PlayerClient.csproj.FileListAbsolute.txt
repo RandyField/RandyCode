@@ -1,0 +1,10 @@
+E:\VoicePlayer\PlayerClient\bin\Debug\PlayerClient.exe.config
+E:\VoicePlayer\PlayerClient\obj\Debug\Interop.MediaPlayer.dll
+E:\VoicePlayer\PlayerClient\obj\Debug\Interop.WMPLib.dll
+E:\VoicePlayer\PlayerClient\obj\Debug\AxInterop.WMPLib.dll
+E:\VoicePlayer\PlayerClient\obj\Debug\PlayerClient.csproj.ResolveComReference.cache
+E:\GitHub\VoicePlayer\PlayerClient\bin\Debug\PlayerClient.exe.config
+E:\GitHub\VoicePlayer\PlayerClient\obj\Debug\Interop.MediaPlayer.dll
+E:\GitHub\VoicePlayer\PlayerClient\obj\Debug\Interop.WMPLib.dll
+E:\GitHub\VoicePlayer\PlayerClient\obj\Debug\AxInterop.WMPLib.dll
+E:\GitHub\VoicePlayer\PlayerClient\obj\Debug\PlayerClient.csproj.ResolveComReference.cache

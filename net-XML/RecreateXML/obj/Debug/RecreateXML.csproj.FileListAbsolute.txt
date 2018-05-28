@@ -1,0 +1,7 @@
+E:\TestSolution\RecreateXML\RecreateXML\bin\Debug\RecreateXML.exe
+E:\TestSolution\RecreateXML\RecreateXML\bin\Debug\RecreateXML.pdb
+E:\TestSolution\RecreateXML\RecreateXML\obj\Debug\RecreateXML.csprojResolveAssemblyReference.cache
+E:\TestSolution\RecreateXML\RecreateXML\obj\Debug\RecreateXML.exe
+E:\TestSolution\RecreateXML\RecreateXML\obj\Debug\RecreateXML.pdb
+E:\TestSolution\RecreateXML\RecreateXML\bin\Debug\CoreAudioApi.dll
+E:\TestSolution\RecreateXML\RecreateXML\bin\Debug\RecreateXML.exe.config

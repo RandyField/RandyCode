@@ -1,0 +1,11 @@
+E:\GitHub\heartbeat-service-windows\IIS-heartbeat\IIS-heartbeat\bin\Debug\IIS-heartbeat.exe.config
+E:\GitHub\heartbeat-service-windows\IIS-heartbeat\IIS-heartbeat\bin\Debug\IIS-heartbeat.exe
+E:\GitHub\heartbeat-service-windows\IIS-heartbeat\IIS-heartbeat\bin\Debug\IIS-heartbeat.pdb
+E:\GitHub\heartbeat-service-windows\IIS-heartbeat\IIS-heartbeat\obj\Debug\IIS_heartbeat.ProjectInstaller.resources
+E:\GitHub\heartbeat-service-windows\IIS-heartbeat\IIS-heartbeat\obj\Debug\IIS-heartbeat.csproj.GenerateResource.Cache
+E:\GitHub\heartbeat-service-windows\IIS-heartbeat\IIS-heartbeat\obj\Debug\IIS-heartbeat.exe
+E:\GitHub\heartbeat-service-windows\IIS-heartbeat\IIS-heartbeat\obj\Debug\IIS-heartbeat.pdb
+E:\GitHub\heartbeat-service-windows\IIS-heartbeat\IIS-heartbeat\bin\Debug\log4net.dll
+E:\GitHub\heartbeat-service-windows\IIS-heartbeat\IIS-heartbeat\bin\Debug\log4net.xml
+E:\GitHub\heartbeat-service-windows\IIS-heartbeat\IIS-heartbeat\bin\Debug\urllist.xml
+E:\GitHub\heartbeat-service-windows\IIS-heartbeat\IIS-heartbeat\bin\Debug\App.config

@@ -1,0 +1,318 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>上传奖品图片</title>
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <script src="~/Scripts/ajaxfileupload.js"></script>
+    <script src="~/Scripts/sweetalert.min.js"></script>
+    <style type="text/css">
+        .container {
+            max-width: 1000px;
+        }
+
+        .container {
+            max-width: 730px;
+        }
+
+        .container {
+            width: 1170px;
+        }
+
+        .container {
+            width: 970px;
+        }
+
+        .container {
+            width: 750px;
+        }
+
+        .container {
+            padding-right: 15px;
+            padding-left: 15px;
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+        * {
+            font-family: 'PT Serif', å¾®è»Ÿæ­£é»‘é«”, å¾®è½¯é›…é»‘, åŽæ–‡ç»†é»‘, Georgia, Times, ! serif important;
+        }
+
+        * {
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+
+        textarea.form-control {
+            resize: none;
+            height: 188px;
+        }
+
+        textarea.form-control {
+            height: auto;
+        }
+
+        .form-control {
+            display: block;
+            width: 100%;
+            height: 34px;
+            padding: 6px 12px;
+            font-size: 14px;
+            line-height: 1.42857143;
+            color: #555;
+            background-color: #fff;
+            background-image: none;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+            box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+            -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+            -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+            transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+        }
+
+        input, button, select, textarea {
+            font-family: inherit;
+            font-size: inherit;
+            line-height: inherit;
+        }
+
+        textarea {
+            overflow: auto;
+        }
+
+        button, input, optgroup, select, textarea {
+            margin: 0;
+            font: inherit;
+            font-family: inherit;
+            font-size: inherit;
+            line-height: inherit;
+            color: inherit;
+        }
+
+        .preview {
+            display: none;
+        }
+
+            .preview > img {
+                max-width: 50%;
+                max-height: 450px;
+            }
+
+        img {
+            vertical-align: middle;
+        }
+
+        img {
+            vertical-align: middle;
+        }
+
+        img {
+            border: 0;
+        }
+
+        .btn-lg, .btn-group-lg > .btn {
+            padding: 10px 16px;
+            font-size: 18px;
+            line-height: 1.33;
+            border-radius: 6px;
+            padding: 14px 24px;
+            font-size: 21px;
+        }
+
+        .btn-info {
+            color: #fff;
+            background-color: #5bc0de;
+            border-color: #46b8da;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 6px 12px;
+            margin-bottom: 0;
+            line-height: 1.42857143;
+            text-align: center;
+            white-space: nowrap;
+            vertical-align: middle;
+            cursor: pointer;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            background-image: none;
+            border: 1px solid transparent;
+            border-top-color: transparent;
+            border-right-color: transparent;
+            border-bottom-color: transparent;
+            border-left-color: transparent;
+            border-radius: 4px;
+        }
+
+        input, button, select, textarea {
+            font-family: inherit;
+            font-size: inherit;
+            line-height: inherit;
+        }
+
+            button, html input[type="button"], input[type="reset"], input[type="submit"] {
+                -webkit-appearance: button;
+                cursor: pointer;
+            }
+
+        button, select {
+            text-transform: none;
+        }
+
+        button {
+            overflow: visible;
+        }
+
+        button, input, optgroup, select, textarea {
+            margin: 0;
+            margin-bottom: 0px;
+            font: inherit;
+            font-family: inherit;
+            font-weight: inherit;
+            font-size: inherit;
+            line-height: inherit;
+            color: inherit;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div style="font-size: 50px;margin-bottom: 140px;margin-top: 100px;">上传奖品图片</div>
+        <div>
+            <div style="margin-bottom: 20px;">
+                奖品名称：<input id="txtawardname" type="text" />
+                <button onclick="save()" class="btn btn-lg btn-info">保存</button>
+            </div>
+            <input type="file" id="filePicture" name="filePicture" accept=".jpg,.jpeg,.png,.bmp" onchange="filePictureChange()" />
+        </div>
+        <hr />
+        <textarea id="url-res-txt" class="form-control" rows="5" placeholder="上传后的图片外链地址将显示在此处哦,下方会显示外链预览图。"></textarea>
+        <div class="preview" style="display: block;">
+            <hr><img id="uploadimg" src="" alt=""><br>
+        </div>
+    </div>
+</body>
+</html>
+<script type="text/javascript">
+    var imguri = "";
+    var flag = false;
+    function filePictureChange() {
+        $.ajaxFileUpload({
+            url: "Upload", //用于文件上传的服务器端请求地址
+            type: "post",
+            secureuri: false, //一般设置为false
+            fileElementId: "filePicture", //文件上传空间的id属性
+            dataType: "json", //返回值类型 一般设置为json
+            success: function (data, status) {  //服务器成功响应处理函数
+                imguri = data.FileUri;
+                $("#uploadimg").attr("src", data.FileUri);
+                swal({
+                    title: "提示",
+                    text: "上传成功",
+                    icon: "success",
+                });
+                $("#url-res-txt").val(imguri);
+            },
+            error: function (data, status, e) {  //服务器响应失败处理函数
+                swal({
+                    title: "提示",
+                    text: "上传失败",
+                    icon: "error",
+                });
+            }
+        });
+    }
+
+    function save() {
+        var name = $("#txtawardname").val();
+        if ($.trim(name) == "") {
+            swal({
+                title: "提示",
+                text: "请输入奖品名称",
+                icon: "error",
+            });
+            return;
+        }
+        if (!flag) {
+            if ($.trim(imguri) == "") {
+                swal({
+                    title: "提示",
+                    text: "请上传图片",
+                    icon: "error",
+                });
+                return;
+            }
+        }
+        else {
+            if ($.trim(imguri) == "") {
+                swal({
+                    title: "提示",
+                    text: "请重新上传新的图片",
+                    icon: "error",
+                });
+                return;
+            }
+        }
+       
+        
+        var ss = { awardname: name };
+        var data = JSON.stringify(ss);
+        $.ajax({
+            type: "post",
+            url: ' ../api/award/name/is/exist/ ',
+            data: data,
+            contentType: "application/json",
+            success: function (data) {
+                if (data.return_code == "EXIST") {
+                    swal({
+                        title: "提示",
+                        text: "奖品名称已存在",
+                        icon: "error",
+                    });
+                }
+                else {
+                    saveurl(name, imguri);
+                }
+
+            }
+        });
+    }
+
+    function saveurl(name, uri) {
+        var obj = { awardname: name, url: uri }
+        var jsondata = JSON.stringify(obj);
+        $.ajax({
+            type: "post",
+            url: ' ../api/award/upload/ ',
+            data: jsondata,
+            contentType: "application/json",
+            success: function (data) {
+                if (data.return_code == "SUCCESS") {
+                    swal({
+                        title: "提示",
+                        text: "保存成功",
+                        icon: "success",
+                    });
+
+                    //保存成功后 图片uri 置为空
+                    imguri = "";
+                    flag = true;
+                }
+                else {
+                    swal({
+                        title: "提示",
+                        text: "保存失败",
+                        icon: "error",
+                    });
+                }
+            }
+        });
+    }
+</script>
