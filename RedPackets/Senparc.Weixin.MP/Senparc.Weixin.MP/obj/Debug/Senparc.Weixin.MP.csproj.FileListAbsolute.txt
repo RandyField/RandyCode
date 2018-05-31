@@ -19,3 +19,10 @@ E:\GitHub\红包领奖\RedPackets3.0\Senparc.Weixin.MP\Senparc.Weixin.MP\bin\Deb
 E:\GitHub\红包领奖\RedPackets3.0\Senparc.Weixin.MP\Senparc.Weixin.MP\obj\Debug\Senparc.Weixin.MP.csprojResolveAssemblyReference.cache
 E:\GitHub\红包领奖\RedPackets3.0\Senparc.Weixin.MP\Senparc.Weixin.MP\obj\Debug\Hightop.Weixin.MP.dll
 E:\GitHub\红包领奖\RedPackets3.0\Senparc.Weixin.MP\Senparc.Weixin.MP\obj\Debug\Hightop.Weixin.MP.pdb
+E:\GitHub\RandyCode\RedPackets\Senparc.Weixin.MP\Senparc.Weixin.MP\bin\Debug\Hightop.Weixin.MP.dll
+E:\GitHub\RandyCode\RedPackets\Senparc.Weixin.MP\Senparc.Weixin.MP\bin\Debug\Hightop.Weixin.MP.pdb
+E:\GitHub\RandyCode\RedPackets\Senparc.Weixin.MP\Senparc.Weixin.MP\bin\Debug\Hightop.Weixin.dll
+E:\GitHub\RandyCode\RedPackets\Senparc.Weixin.MP\Senparc.Weixin.MP\bin\Debug\Hightop.Weixin.pdb
+E:\GitHub\RandyCode\RedPackets\Senparc.Weixin.MP\Senparc.Weixin.MP\obj\Debug\Senparc.Weixin.MP.csprojResolveAssemblyReference.cache
+E:\GitHub\RandyCode\RedPackets\Senparc.Weixin.MP\Senparc.Weixin.MP\obj\Debug\Hightop.Weixin.MP.dll
+E:\GitHub\RandyCode\RedPackets\Senparc.Weixin.MP\Senparc.Weixin.MP\obj\Debug\Hightop.Weixin.MP.pdb

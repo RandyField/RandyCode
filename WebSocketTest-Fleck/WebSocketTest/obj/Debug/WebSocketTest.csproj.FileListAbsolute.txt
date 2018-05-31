@@ -1,0 +1,16 @@
+D:\WebSocke学习\WebSocketTest\WebSocketTest\bin\Debug\WebSocketTest.exe.config
+D:\WebSocke学习\WebSocketTest\WebSocketTest\bin\Debug\WebSocketTest.exe
+D:\WebSocke学习\WebSocketTest\WebSocketTest\bin\Debug\WebSocketTest.pdb
+D:\WebSocke学习\WebSocketTest\WebSocketTest\bin\Debug\Fleck.dll
+D:\WebSocke学习\WebSocketTest\WebSocketTest\bin\Debug\Fleck.pdb
+D:\WebSocke学习\WebSocketTest\WebSocketTest\obj\Debug\WebSocketTest.csprojResolveAssemblyReference.cache
+D:\WebSocke学习\WebSocketTest\WebSocketTest\obj\Debug\WebSocketTest.exe
+D:\WebSocke学习\WebSocketTest\WebSocketTest\obj\Debug\WebSocketTest.pdb
+C:\Users\Randy\Desktop\WebSocketTest\WebSocketTest\bin\Debug\WebSocketTest.exe.config
+C:\Users\Randy\Desktop\WebSocketTest\WebSocketTest\obj\Debug\WebSocketTest.exe
+C:\Users\Randy\Desktop\WebSocketTest\WebSocketTest\obj\Debug\WebSocketTest.pdb
+C:\Users\Randy\Desktop\WebSocketTest\WebSocketTest\bin\Debug\WebSocketTest.exe
+C:\Users\Randy\Desktop\WebSocketTest\WebSocketTest\bin\Debug\WebSocketTest.pdb
+C:\Users\Randy\Desktop\WebSocketTest\WebSocketTest\bin\Debug\Fleck.dll
+C:\Users\Randy\Desktop\WebSocketTest\WebSocketTest\bin\Debug\Fleck.pdb
+C:\Users\Randy\Desktop\WebSocketTest\WebSocketTest\obj\Debug\WebSocketTest.csprojResolveAssemblyReference.cache

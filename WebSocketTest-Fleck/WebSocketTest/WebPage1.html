@@ -1,0 +1,33 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+    <title>websocket client</title>
+    <script type="text/javascript">
+        var ws = {};
+        var start = function () {
+            var wsImpl = window.WebSocket || window.MozWebSocket;
+
+            var input = document.getElementById('sendText');
+
+            ws = new wsImpl('ws://localhost:7181/');
+
+            ws.onmessage = function (evt) {
+            };
+
+            ws.onopen = function () {
+            };
+
+            ws.onclose = function () {
+                
+            };
+        }
+        function OnClinckEvent() {
+            ws.send(11111111111111);
+        };
+        window.onload = start;
+    </script>
+</head>
+<body>
+    <input type="button" id="sendText" onclick="OnClinckEvent()" />
+</body>
+</html>

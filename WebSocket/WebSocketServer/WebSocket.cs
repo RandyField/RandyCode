@@ -15,6 +15,8 @@ namespace WebSocketServer
     /// </summary>
     public class WebSocket
     {
+        private bool istart = false;
+
         /// <summary>
         /// session池
         /// </summary>
@@ -32,25 +34,33 @@ namespace WebSocketServer
         /// <param name="port"></param>
         public void start(int port)
         {
-            //IPv4的地址
-            //支持可靠、双向、基于连接的字节流，而不重复数据，也不保留边界。 
-            //此类型的 Socket 与单个对方主机通信，并且在通信开始之前需要建立远程主机连接。
-            //tcp
-            Socket socketServer = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
+            try
+            {
+                //IPv4的地址
+                //支持可靠、双向、基于连接的字节流，而不重复数据，也不保留边界。 
+                //此类型的 Socket 与单个对方主机通信，并且在通信开始之前需要建立远程主机连接。
+                //tcp
+                Socket socketServer = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
 
-            //绑定ip与端口
-            socketServer.Bind(new IPEndPoint(IPAddress.Any, port));
+                //绑定ip与端口
+                socketServer.Bind(new IPEndPoint(IPAddress.Any, port));
 
-            //允许连接队列的最大长度
-            socketServer.Listen(2);
+                //允许连接队列的最大长度
+                socketServer.Listen(2);
 
-            //异步监听客户端的tcp连接
-            socketServer.BeginAccept(new AsyncCallback(Accept), socketServer);
+                //异步监听客户端的tcp连接
+                socketServer.BeginAccept(new AsyncCallback(Accept), socketServer);
 
-            //Socket sc = socketServer.Accept();////监听获取客户端tcp请求 阻塞
-            Console.WriteLine("服务已启动");
-            Console.WriteLine("按任意键关闭服务");
-            Console.ReadLine();
+                //Socket sc = socketServer.Accept();////监听获取客户端tcp请求 阻塞
+                Console.WriteLine(string.Format("{0}服务已启动", DateTime.Now.ToString()));
+                Console.WriteLine("按任意键关闭服务");
+                Console.ReadLine();
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
         }
         #endregion
 
@@ -72,40 +82,33 @@ namespace WebSocketServer
 
             try
             {
-                //异步接收客户端的数据
-                socketclient.BeginReceive(buffer, 0, buffer.Length, SocketFlags.None, new AsyncCallback(Recieve), socketclient);
-
-                //保存登录的客户端
-                Session session = new Session();
-                session._socketclient = socketclient;
-                session._ip = socketclient.RemoteEndPoint.ToString();
-                session._buffer = buffer;
-                lock (SessionPool)
+                if (istart)
                 {
-                    if (SessionPool.ContainsKey(session._ip))
+                    socketclient.Disconnect(false);
+                }
+                else
+                {
+                    //异步接收客户端的数据
+                    socketclient.BeginReceive(buffer, 0, buffer.Length, SocketFlags.None, new AsyncCallback(Recieve), socketclient);
+
+                    //保存登录的客户端
+                    Session session = new Session();
+                    session._socketclient = socketclient;
+                    session._ip = socketclient.RemoteEndPoint.ToString();
+                    session._buffer = buffer;
+                    lock (SessionPool)
                     {
-                        this.SessionPool.Remove(session._ip);
+                        if (SessionPool.ContainsKey(session._ip))
+                        {
+                            this.SessionPool.Remove(session._ip);
+                        }
+                        this.SessionPool.Add(session._ip, session);
                     }
-                    this.SessionPool.Add(session._ip, session);
+
+                    //准备接受下一个客户端
+                    socketserver.BeginAccept(new AsyncCallback(Accept), socketserver);
+                    Console.WriteLine(string.Format("{0} Client {1} connected", DateTime.Now.ToString(), socketclient.RemoteEndPoint));
                 }
-
-                ////异步接收客户端的数据
-                //socketclient.BeginReceive(buffer, 0, buffer.Length, SocketFlags.None, new AsyncCallback(Recieve), socketclient);
-
-                //准备接受下一个客户端
-                socketserver.BeginAccept(new AsyncCallback(Accept), socketserver);
-
-                //打包消息
-                byte[] msgBuffer = PackageServerData("start");
-
-                //遍历session池
-                foreach (Session se in SessionPool.Values)
-                {
-                    //广播
-                    se._socketclient.Send(msgBuffer, msgBuffer.Length, SocketFlags.None);
-                }
-
-                Console.WriteLine(string.Format("Client {0} connected", socketclient.RemoteEndPoint));
             }
             catch (Exception ex)
             {
@@ -141,7 +144,7 @@ namespace WebSocketServer
                 socketclient.BeginReceive(buffer, 0, buffer.Length, SocketFlags.None, new AsyncCallback(Recieve), socketclient);
 
                 //utf-8解码 为字符串
-                string msg = Encoding.UTF8.GetString(buffer, 0, length);
+                 string msg = Encoding.UTF8.GetString(buffer, 0, length);
 
                 //websocket建立连接的时候，除了TCP连接的三次握手，websocket协议中客户端与服务器想建立连接需要一次额外的握手动作
                 if (!string.IsNullOrWhiteSpace(msg))
@@ -152,32 +155,78 @@ namespace WebSocketServer
                         //发送给客户端握手信息  除了TCP连接的三次握手，websocket协议中客户端与服务器想建立连接需要一次额外的握手动作
                         socketclient.Send(PackageHandShakeData(buffer, length));
                         SessionPool[Ip]._isweb = true;
+                        Console.WriteLine(string.Format("{0} Client {1} 握手成功", DateTime.Now.ToString(), socketclient.RemoteEndPoint));
                         return;
                     }
+
+                    #region 区分客户端 服务端
+
+                    string Analyzemsg = "";
+                    //解析客户端数据
+                    Analyzemsg = AnalyzeClientData(buffer, length);
+
+
+                    if (Analyzemsg == "clientconnect")
+                    {
+                        foreach (KeyValuePair<string, WebSocketServer.Session> se in SessionPool.ToArray())
+                        {
+                            if (se.Value._socketclient.Poll(10, SelectMode.SelectRead))
+                            {
+                                se.Value._socketclient.Disconnect(false);
+                                Console.WriteLine("{0} 监测到客户端 {1} 断开连接", DateTime.Now.ToString(), se.Value._ip);
+                                SessionPool.Remove(Ip);
+                            }
+                            else
+                            {
+                                //打包消息
+                                byte[] msgBuffer = PackageServerData(Analyzemsg);
+                                //广播
+                                se.Value._socketclient.Send(msgBuffer, msgBuffer.Length, SocketFlags.None);
+                            }
+                        }
+                    }
+                    if (Analyzemsg == "start")
+                    {
+                        istart = true;
+                    }
+                    if (Analyzemsg == "end")
+                    {
+                        istart = false;
+                    }
+
+                    #endregion
 
                     //处理数据
                     if (SessionPool[Ip]._isweb)
                     {
-                        //解析客户端数据
-                        msg = AnalyzeClientData(buffer, length);
-                        Console.WriteLine(string.Format("Client {0} say:{1}", socketclient.RemoteEndPoint, msg));
+                        Console.WriteLine(string.Format("Client {0} 发送:{1}", socketclient.RemoteEndPoint, Analyzemsg));
                     }
 
-                    //打包消息
-                    byte[] msgBuffer = PackageServerData(msg);
 
-                    //遍历session池
-                    foreach (Session se in SessionPool.Values)
+                    foreach (KeyValuePair<string, WebSocketServer.Session> se in SessionPool.ToArray())
                     {
-                        //广播
-                        se._socketclient.Send(msgBuffer, msgBuffer.Length, SocketFlags.None);
+                        if (se.Value._socketclient.Poll(10, SelectMode.SelectRead))
+                        {
+                            se.Value._socketclient.Disconnect(false);
+                            Console.WriteLine("{0} 监测到客户端 {1} 断开连接", DateTime.Now.ToString(), se.Value._ip);
+                            SessionPool.Remove(Ip);
+                        }
+                        else
+                        {
+                            //打包消息
+                            byte[] msgBuffer = PackageServerData(Analyzemsg);
+
+                            //广播
+                            se.Value._socketclient.Send(msgBuffer, msgBuffer.Length, SocketFlags.None);
+                        }
                     }
+
                 }
             }
-            catch
+            catch (Exception ex)
             {
-                socketclient.Disconnect(true);
-                Console.WriteLine("客户端 {0} 断开连接", Ip);
+                socketclient.Disconnect(false);
+                Console.WriteLine("{0} 抛出异常客户端 {1} 断开连接", DateTime.Now.ToString(), Ip);
                 SessionPool.Remove(Ip);
             }
         }

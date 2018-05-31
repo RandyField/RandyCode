@@ -1,0 +1,12 @@
+C:\Users\Randy\Desktop\WebSocketTest\Fleck\bin\Release\Fleck.dll
+C:\Users\Randy\Desktop\WebSocketTest\Fleck\bin\Release\Fleck.pdb
+C:\Users\Randy\Desktop\WebSocketTest\Fleck\obj\Release\Fleck.dll
+C:\Users\Randy\Desktop\WebSocketTest\Fleck\obj\Release\Fleck.pdb
+C:\Users\Randy\Desktop\WebSocketTest - 副本\Fleck\bin\Release\Fleck.dll
+C:\Users\Randy\Desktop\WebSocketTest - 副本\Fleck\bin\Release\Fleck.pdb
+C:\Users\Randy\Desktop\WebSocketTest - 副本\Fleck\bin\Release\System.Net.Http.dll
+C:\Users\Randy\Desktop\WebSocketTest - 副本\Fleck\bin\Release\System.Net.Http.xml
+C:\Users\Randy\Desktop\WebSocketTest - 副本\Fleck\bin\Release\zh-Hans\System.Net.Http.resources.dll
+C:\Users\Randy\Desktop\WebSocketTest - 副本\Fleck\obj\Release\Fleck.csprojResolveAssemblyReference.cache
+C:\Users\Randy\Desktop\WebSocketTest - 副本\Fleck\obj\Release\Fleck.dll
+C:\Users\Randy\Desktop\WebSocketTest - 副本\Fleck\obj\Release\Fleck.pdb

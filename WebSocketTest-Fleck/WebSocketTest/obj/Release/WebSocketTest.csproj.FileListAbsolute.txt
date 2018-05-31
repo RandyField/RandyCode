@@ -1,0 +1,22 @@
+C:\Users\Randy\Desktop\WebSocketTest\WebSocketTest\bin\Release\WebSocketTest.exe.config
+C:\Users\Randy\Desktop\WebSocketTest\WebSocketTest\bin\Release\WebSocketTest.exe
+C:\Users\Randy\Desktop\WebSocketTest\WebSocketTest\bin\Release\WebSocketTest.pdb
+C:\Users\Randy\Desktop\WebSocketTest\WebSocketTest\bin\Release\Fleck.dll
+C:\Users\Randy\Desktop\WebSocketTest\WebSocketTest\bin\Release\Fleck.pdb
+C:\Users\Randy\Desktop\WebSocketTest\WebSocketTest\obj\Release\WebSocketTest.csprojResolveAssemblyReference.cache
+C:\Users\Randy\Desktop\WebSocketTest\WebSocketTest\obj\Release\WebSocketTest.exe
+C:\Users\Randy\Desktop\WebSocketTest\WebSocketTest\obj\Release\WebSocketTest.pdb
+C:\Users\Randy\Desktop\WebSocketTest - 副本\WebSocketTest\bin\Release\WebSocketTest.exe.config
+C:\Users\Randy\Desktop\WebSocketTest - 副本\WebSocketTest\obj\Release\WebSocketTest.exe
+C:\Users\Randy\Desktop\WebSocketTest - 副本\WebSocketTest\obj\Release\WebSocketTest.pdb
+C:\Users\Randy\Desktop\WebSocketTest - 副本\WebSocketTest\obj\Release\WebSocketTest.csprojResolveAssemblyReference.cache
+C:\Users\Randy\Desktop\WebSocketTest - 副本\WebSocketTest\bin\Release\WebSocketTest.exe
+C:\Users\Randy\Desktop\WebSocketTest - 副本\WebSocketTest\bin\Release\WebSocketTest.pdb
+C:\Users\Randy\Desktop\WebSocketTest - 副本\WebSocketTest\bin\Release\Fleck.dll
+C:\Users\Randy\Desktop\WebSocketTest - 副本\WebSocketTest\bin\Release\System.Net.Http.dll
+C:\Users\Randy\Desktop\WebSocketTest - 副本\WebSocketTest\bin\Release\Fleck.pdb
+C:\Users\Randy\Desktop\WebSocketTest - 副本\WebSocketTest\bin\Release\System.Net.Http.xml
+C:\Users\Randy\Desktop\WebSocketTest - 副本\WebSocketTest\bin\Release\zh-Hans\System.Net.Http.resources.dll
+E:\GitHub\RandyCode\WebSocketTest-Fleck\WebSocketTest\bin\Release\WebSocketTest.exe.config
+E:\GitHub\RandyCode\WebSocketTest-Fleck\WebSocketTest\obj\Release\WebSocketTest.exe
+E:\GitHub\RandyCode\WebSocketTest-Fleck\WebSocketTest\obj\Release\WebSocketTest.pdb

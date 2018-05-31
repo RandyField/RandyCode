@@ -1,0 +1,9 @@
+D:\WebSocke学习\WebSocketTest\Fleck\bin\Debug\Fleck.dll
+D:\WebSocke学习\WebSocketTest\Fleck\bin\Debug\Fleck.pdb
+D:\WebSocke学习\WebSocketTest\Fleck\obj\Debug\Fleck.dll
+D:\WebSocke学习\WebSocketTest\Fleck\obj\Debug\Fleck.pdb
+C:\Users\Randy\Desktop\WebSocketTest\Fleck\bin\Debug\Fleck.dll
+C:\Users\Randy\Desktop\WebSocketTest\Fleck\bin\Debug\Fleck.pdb
+C:\Users\Randy\Desktop\WebSocketTest\Fleck\obj\Debug\Fleck.csprojResolveAssemblyReference.cache
+C:\Users\Randy\Desktop\WebSocketTest\Fleck\obj\Debug\Fleck.dll
+C:\Users\Randy\Desktop\WebSocketTest\Fleck\obj\Debug\Fleck.pdb

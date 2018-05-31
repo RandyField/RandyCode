@@ -21,3 +21,8 @@ E:\GitHub\红包领奖\RedPackets3.0\Senparc.Weixin\Senparc.Weixin\bin\Debug\Hig
 E:\GitHub\红包领奖\RedPackets3.0\Senparc.Weixin\Senparc.Weixin\obj\Debug\Senparc.Weixin.csprojResolveAssemblyReference.cache
 E:\GitHub\红包领奖\RedPackets3.0\Senparc.Weixin\Senparc.Weixin\obj\Debug\Hightop.Weixin.dll
 E:\GitHub\红包领奖\RedPackets3.0\Senparc.Weixin\Senparc.Weixin\obj\Debug\Hightop.Weixin.pdb
+E:\GitHub\RandyCode\RedPackets\Senparc.Weixin\Senparc.Weixin\bin\Debug\Hightop.Weixin.dll
+E:\GitHub\RandyCode\RedPackets\Senparc.Weixin\Senparc.Weixin\bin\Debug\Hightop.Weixin.pdb
+E:\GitHub\RandyCode\RedPackets\Senparc.Weixin\Senparc.Weixin\obj\Debug\Senparc.Weixin.csprojResolveAssemblyReference.cache
+E:\GitHub\RandyCode\RedPackets\Senparc.Weixin\Senparc.Weixin\obj\Debug\Hightop.Weixin.dll
+E:\GitHub\RandyCode\RedPackets\Senparc.Weixin\Senparc.Weixin\obj\Debug\Hightop.Weixin.pdb

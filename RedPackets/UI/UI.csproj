@@ -153,6 +153,7 @@
     <Compile Include="Controllers\SpringController.cs" />
     <Compile Include="Controllers\SyylcController.cs" />
     <Compile Include="Controllers\ValentinesDayController.cs" />
+    <Compile Include="Controllers\WawaController.cs" />
     <Compile Include="Controllers\WdatController.cs" />
     <Compile Include="Controllers\WdbylController.cs" />
     <Compile Include="Controllers\WdtxController.cs" />
@@ -291,6 +292,11 @@
     <Content Include="Content\image\ValentinesDay\award1.png" />
     <Content Include="Content\image\ValentinesDay\award2.png" />
     <Content Include="Content\image\ValentinesDay\award3.png" />
+    <Content Include="Content\image\Wawa\A.jpg" />
+    <Content Include="Content\image\Wawa\B.jpg" />
+    <Content Include="Content\image\Wawa\C.jpg" />
+    <Content Include="Content\image\Wawa\HadAttend.jpg" />
+    <Content Include="Content\image\Wawa\Nogift.jpg" />
     <Content Include="Content\image\Wdat\A.jpg" />
     <Content Include="Content\image\Wdat\B.jpg" />
     <Content Include="Content\image\Wdat\C.jpg" />
@@ -590,6 +596,9 @@
     <Content Include="Views\Ymd\Nogift.cshtml" />
     <Content Include="Views\Ymd\HadAttend.cshtml" />
     <Content Include="Views\Ymd\OutOfDate.cshtml" />
+    <Content Include="Views\Wawa\Activity.cshtml" />
+    <Content Include="Views\Wawa\HadAttend.cshtml" />
+    <Content Include="Views\Wawa\Nogift.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

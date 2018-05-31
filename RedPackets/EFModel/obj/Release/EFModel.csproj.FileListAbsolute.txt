@@ -64,3 +64,14 @@ E:\GitHub\红包领奖\RedPackets3.0\EFModel\bin\Release\zh-Hans\EntityFramework
 E:\GitHub\红包领奖\RedPackets3.0\EFModel\obj\Release\EFModel.csprojResolveAssemblyReference.cache
 E:\GitHub\红包领奖\RedPackets3.0\EFModel\obj\Release\EFModel.dll
 E:\GitHub\红包领奖\RedPackets3.0\EFModel\obj\Release\EFModel.pdb
+E:\GitHub\RandyCode\RedPackets\EFModel\bin\Release\EFModel.dll.config
+E:\GitHub\RandyCode\RedPackets\EFModel\bin\Release\EFModel.dll
+E:\GitHub\RandyCode\RedPackets\EFModel\bin\Release\EFModel.pdb
+E:\GitHub\RandyCode\RedPackets\EFModel\bin\Release\EntityFramework.dll
+E:\GitHub\RandyCode\RedPackets\EFModel\bin\Release\Model.dll
+E:\GitHub\RandyCode\RedPackets\EFModel\bin\Release\Model.pdb
+E:\GitHub\RandyCode\RedPackets\EFModel\bin\Release\EntityFramework.xml
+E:\GitHub\RandyCode\RedPackets\EFModel\bin\Release\zh-Hans\EntityFramework.resources.dll
+E:\GitHub\RandyCode\RedPackets\EFModel\obj\Release\EFModel.csprojResolveAssemblyReference.cache
+E:\GitHub\RandyCode\RedPackets\EFModel\obj\Release\EFModel.dll
+E:\GitHub\RandyCode\RedPackets\EFModel\obj\Release\EFModel.pdb

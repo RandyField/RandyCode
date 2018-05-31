@@ -4,3 +4,9 @@ C:\Users\Randy\Desktop\new-source\new - Web Sockets chat - Server\WebSocketServe
 C:\Users\Randy\Desktop\new-source\new - Web Sockets chat - Server\WebSocketServer\bin\Debug\WebSocketServer.pdb
 C:\Users\Randy\Desktop\new-source\new - Web Sockets chat - Server\WebSocketServer\obj\Debug\WebSocketServer.exe
 C:\Users\Randy\Desktop\new-source\new - Web Sockets chat - Server\WebSocketServer\obj\Debug\WebSocketServer.pdb
+E:\GitHub\RandyCode\WebSocket\WebSocketServer\bin\Debug\WebSocketServer.exe.config
+E:\GitHub\RandyCode\WebSocket\WebSocketServer\obj\Debug\WebSocketServer.exe
+E:\GitHub\RandyCode\WebSocket\WebSocketServer\obj\Debug\WebSocketServer.pdb
+E:\GitHub\RandyCode\WebSocket\WebSocketServer\bin\Debug\WebSocketServer.exe
+E:\GitHub\RandyCode\WebSocket\WebSocketServer\bin\Debug\WebSocketServer.pdb
+E:\GitHub\RandyCode\WebSocket\WebSocketServer\obj\Debug\WebSocketServer.csprojResolveAssemblyReference.cache
