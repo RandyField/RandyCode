@@ -53,7 +53,7 @@ namespace BLL
 
         private IBaseDAL idal = DbFactory.Create();
 
-        #region 初始化密码
+        #region +初始化密码
 
         /// <summary>
         /// 初始化admin密码
@@ -119,7 +119,7 @@ namespace BLL
 
         #endregion
 
-        #region 登录
+        #region +登录
 
 
         /// <summary>
@@ -168,7 +168,7 @@ namespace BLL
 
         #endregion
 
-        #region 新增账户
+        #region +新增账户
 
 
         /// <summary>
@@ -225,7 +225,7 @@ namespace BLL
 
         #endregion
 
-        #region 编辑账户
+        #region +编辑账户
 
 
         /// <summary>
@@ -271,7 +271,7 @@ namespace BLL
 
         #endregion
 
-        #region 查询账户 id
+        #region +查询账户 id
 
 
         /// <summary>
@@ -306,7 +306,7 @@ namespace BLL
 
         #endregion
 
-        #region 查询账户 用户名
+        #region +查询账户 用户名
 
         /// <summary>
         /// 根据用户名查询用户信息

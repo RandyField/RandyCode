@@ -99,7 +99,14 @@ namespace Zhp.Awards.Activity.Controllers
                 awardsModel = bll.GetAwardsInfo(activityid);
 
             }
-            awardsModel.id = DESEncrypt.Decrypt(awardsModel.id, ConfigurationManager.AppSettings["encryption"]);
+            if (awardsModel!=null)
+            {
+                if (!string.IsNullOrWhiteSpace(awardsModel.id))
+                {
+                    awardsModel.id = DESEncrypt.Decrypt(awardsModel.id, ConfigurationManager.AppSettings["encryption"]);
+                }
+            }
+           
 
             return Json(awardsModel);
         }
