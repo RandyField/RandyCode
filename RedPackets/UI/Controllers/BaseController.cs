@@ -53,7 +53,7 @@ namespace UI.Controllers
             {
 
                 HttpHelper httpHelper = new HttpHelper();
-                string res = httpHelper.HttpGet(String.Format("http://www.chinazhihuiping.com:89/RedPacketService/IsNewActivity?Id={0}", activityId), "");        
+                string res = httpHelper.HttpGet(String.Format("http://www.chinazhihuiping.com:89/RedPacketService/IsNewActivity?Id={0}", activityId), "");
             }
             catch (Exception ex)
             {
@@ -238,7 +238,7 @@ namespace UI.Controllers
                 }
                 //反序列化获取奖品信息
                 awardsInfo = JsonConvert.DeserializeObject<AwardsInfoModel>(awards);
-                
+
 
             }
             catch (Exception ex)
@@ -250,12 +250,12 @@ namespace UI.Controllers
             //{
             //    if (awardsInfo.Class)
             //    {
-                    
+
             //    }
             //}
             //catch (Exception)
             //{
-                
+
             //    throw;
             //}
             return awardsInfo;
@@ -600,7 +600,32 @@ namespace UI.Controllers
         {
             bool flag = false;
             TRP_AwardReceive_BLL bll = awardDi.getBll();
-            flag = bll.isAttendWxByActivity(activityId, openId,times);
+            flag = bll.isAttendWxByActivity(activityId, openId, times);
+            return flag;
+        }
+
+
+        /// <summary>
+        /// 获取概率
+        /// </summary>
+        /// <param name="probability">概率值,例:0.85</param>
+        /// <returns></returns>
+        public bool GetByProbability(float probability)
+        {
+            bool flag = false;
+
+            //范围最大数
+            int temp =Convert.ToInt32((probability * 100));
+            Random rd = new Random();
+
+            //100以内（包括100）获取随机数
+            int gettemp=rd.Next(1, 101);
+
+            //比较随机数
+            if (gettemp<=temp)
+            {
+                flag = true;
+            }
             return flag;
         }
     }
