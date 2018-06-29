@@ -31,10 +31,10 @@
       <publishTime>06/29/2018 13:30:16</publishTime>
     </File>
     <File Include="bin/Hightop.Weixin.MP.dll">
-      <publishTime>06/29/2018 13:30:18</publishTime>
+      <publishTime>06/29/2018 14:32:46</publishTime>
     </File>
     <File Include="bin/Hightop.Weixin.MP.MvcExtension.dll">
-      <publishTime>06/29/2018 13:30:19</publishTime>
+      <publishTime>06/29/2018 14:58:12</publishTime>
     </File>
     <File Include="bin/Interface.dll">
       <publishTime>06/29/2018 13:30:19</publishTime>
@@ -97,7 +97,7 @@
       <publishTime>03/28/2017 16:02:57</publishTime>
     </File>
     <File Include="bin/UI.dll">
-      <publishTime>06/29/2018 13:30:21</publishTime>
+      <publishTime>06/29/2018 14:58:15</publishTime>
     </File>
     <File Include="bin/Untility.dll">
       <publishTime>06/29/2018 13:30:17</publishTime>
@@ -1108,7 +1108,7 @@
       <publishTime>04/26/2017 11:33:39</publishTime>
     </File>
     <File Include="Views/ChinaGold/Activity.cshtml">
-      <publishTime>05/17/2018 16:51:02</publishTime>
+      <publishTime>06/29/2018 14:50:28</publishTime>
     </File>
     <File Include="Views/ChinaGold/GiveMoney.cshtml">
       <publishTime>05/16/2018 10:30:14</publishTime>
@@ -1180,16 +1180,16 @@
       <publishTime>05/02/2017 10:30:44</publishTime>
     </File>
     <File Include="Views/GomeBirthday/Activity.cshtml">
-      <publishTime>06/29/2018 13:23:48</publishTime>
+      <publishTime>06/29/2018 14:50:52</publishTime>
     </File>
     <File Include="Views/GomeBirthday/HadAttend.cshtml">
-      <publishTime>06/29/2018 11:43:33</publishTime>
+      <publishTime>06/29/2018 13:58:52</publishTime>
     </File>
     <File Include="Views/GomeBirthday/Nogift.cshtml">
-      <publishTime>06/29/2018 11:43:41</publishTime>
+      <publishTime>06/29/2018 13:59:00</publishTime>
     </File>
     <File Include="Views/GomeBirthday/OutOfDate.cshtml">
-      <publishTime>06/29/2018 11:43:47</publishTime>
+      <publishTime>06/29/2018 13:59:06</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
       <publishTime>03/28/2017 16:02:58</publishTime>

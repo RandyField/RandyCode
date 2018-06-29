@@ -59,7 +59,7 @@
 
                 .wrap .ipt #logo {
                     position: absolute;
-                    left: 1.5rem;
+                    left: 1.3rem;
                     top: -0.3rem;
                 }
 
@@ -72,7 +72,7 @@
                 }
 
                 .wrap .ipt #logo img {
-                    width: 5.5rem;
+                    width: 4.5rem;
                 }
 
                 .wrap .ipt #stamp {
@@ -140,19 +140,22 @@
     @switch (@ViewData["Type"].ToString())
     {
         case "A":
-            @: <img src="../Content/image/GomeBirthday/A.jpg" id="topImg" style="width: 100%; height: 100%;" />
+            @: <img src="../Content/image/GomeBirthday/A.jpg" id="topImg" style="width: 100%; height: 100%;" onclick="return false;" />
                 break;
         case "B":
-        @: <img src="../Content/image/GomeBirthday/B.jpg" id="topImg" style="width: 100%; height: 100%;" />
+        @: <img src="../Content/image/GomeBirthday/B.jpg" id="topImg" style="width: 100%; height: 100%;" onclick="return false;" />
                 break;
         case "C":
-        @: <img src="../Content/image/GomeBirthday/C.jpg" id="topImg" style="width: 100%; height: 100%;" />
+        @: <img src="../Content/image/GomeBirthday/C.jpg" id="topImg" style="width: 100%; height: 100%;" onclick="return false;" />
                 break;
         case "D":
-        @: <img src="../Content/image/GomeBirthday/D.jpg" id="topImg" style="width: 100%; height: 100%;" />
+        @: <img src="../Content/image/GomeBirthday/D.jpg" id="topImg" style="width: 100%; height: 100%;" onclick="return false;" />
+                break;
+        case "E":
+        @: <img src="../Content/image/GomeBirthday/E.jpg" id="topImg" style="width: 100%; height: 100%;" onclick="return false;" />
                 break;
         default:
-        @: <img src="../Content/image/DragonBoat/B.jpg" id="topImg" style="width: 100%; height: 100%;" />
+        @: <img src="../Content/image/DragonBoat/B.jpg" id="topImg" style="width: 100%; height: 100%;" onclick="return false;" />
                 break;
     }
 
@@ -164,8 +167,7 @@
             @* <div id="clickzone">
                 </div>*@
             <div id="stamp">
-                <img src="~/Content/image/common/stamp-black.png" />
-
+                <img src="~/Content/image/common/stamp-red.png" onclick="return false;" />
             </div>
         </div>
     </div>
@@ -196,9 +198,10 @@
             var activityId = '@ViewData["Activity"].ToString()';
             $("#clickzone").hide();
             $("#logo").show();
-            $("#stamp").show();
-            $('#tip').modal('show');
-            setTimeout("$('#tip').modal('hide')", 1000);
+
+            //$("#stamp").show();
+            //$('#tip').modal('show');
+            //setTimeout("$('#tip').modal('hide')", 1000);
 
             i = 1;
             var url = window.location.protocol + "//" + window.location.host + "/wxredpackets/GomeBirthday/ReceivedAward";
@@ -215,10 +218,13 @@
                     },
                     success: function (data) {
                         if (data.success) {
-
+                            $("#logo").off();
+                            $("#stamp").show();
+                            $('#tip').modal('show');
+                            setTimeout("$('#tip').modal('hide')", 1000);
                         }
                         else {
-
+                            alert("超时领取，核销失败");
                         }
                     },
                     error: function (XMLHttpRequest, textStatus, errorThrown) {

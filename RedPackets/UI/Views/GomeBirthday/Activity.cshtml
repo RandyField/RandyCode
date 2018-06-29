@@ -59,7 +59,7 @@
 
                 .wrap .ipt #logo {
                     position: absolute;
-                    left: 0.5rem;
+                    left: 1.3rem;
                     top: -0.3rem;
                 }
 
@@ -72,7 +72,7 @@
                 }
 
                 .wrap .ipt #logo img {
-                    width: 5.5rem;
+                    width: 4.5rem;
                 }
 
                 .wrap .ipt #stamp {
@@ -167,7 +167,7 @@
             @* <div id="clickzone">
                 </div>*@
             <div id="stamp">
-                <img src="~/Content/image/common/stamp-black.png" onclick="return false;" />
+                <img src="~/Content/image/common/stamp-red.png" onclick="return false;" />
             </div>
         </div>
     </div>
@@ -198,9 +198,10 @@
             var activityId = '@ViewData["Activity"].ToString()';
             $("#clickzone").hide();
             $("#logo").show();
-            $("#stamp").show();
-            $('#tip').modal('show');
-            setTimeout("$('#tip').modal('hide')", 1000);
+
+            //$("#stamp").show();
+            //$('#tip').modal('show');
+            //setTimeout("$('#tip').modal('hide')", 1000);
 
             i = 1;
             var url = window.location.protocol + "//" + window.location.host + "/wxredpackets/GomeBirthday/ReceivedAward";
@@ -217,10 +218,13 @@
                     },
                     success: function (data) {
                         if (data.success) {
-
+                            $("#logo").off();
+                            $("#stamp").show();
+                            $('#tip').modal('show');
+                            setTimeout("$('#tip').modal('hide')", 1000);
                         }
                         else {
-
+                            alert("超时领取，核销失败");
                         }
                     },
                     error: function (XMLHttpRequest, textStatus, errorThrown) {
