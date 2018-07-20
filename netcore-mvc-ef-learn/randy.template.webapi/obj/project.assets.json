@@ -12848,11 +12848,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "E:\\RandyGithub\\netcore-mvc-ef-learn\\randy.template.webapi\\randy.template.webapi.csproj",
+      "projectUniqueName": "E:\\GitHub\\RandyCode\\netcore-mvc-ef-learn\\randy.template.webapi\\randy.template.webapi.csproj",
       "projectName": "randy.template.webapi",
-      "projectPath": "E:\\RandyGithub\\netcore-mvc-ef-learn\\randy.template.webapi\\randy.template.webapi.csproj",
+      "projectPath": "E:\\GitHub\\RandyCode\\netcore-mvc-ef-learn\\randy.template.webapi\\randy.template.webapi.csproj",
       "packagesPath": "C:\\Users\\Randy\\.nuget\\packages\\",
-      "outputPath": "E:\\RandyGithub\\netcore-mvc-ef-learn\\randy.template.webapi\\obj\\",
+      "outputPath": "E:\\GitHub\\RandyCode\\netcore-mvc-ef-learn\\randy.template.webapi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
@@ -12873,8 +12873,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "E:\\RandyGithub\\netcore-mvc-ef-learn\\MODEL\\MODEL.csproj": {
-              "projectPath": "E:\\RandyGithub\\netcore-mvc-ef-learn\\MODEL\\MODEL.csproj"
+            "E:\\GitHub\\RandyCode\\netcore-mvc-ef-learn\\MODEL\\MODEL.csproj": {
+              "projectPath": "E:\\GitHub\\RandyCode\\netcore-mvc-ef-learn\\MODEL\\MODEL.csproj"
             }
           }
         }

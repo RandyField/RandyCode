@@ -561,7 +561,6 @@ E:\GitHub\红包领奖\RedPackets3.0\UI\obj\Debug\UI.csprojResolveAssemblyRefere
 E:\GitHub\红包领奖\RedPackets3.0\UI\obj\Debug\UI.dll
 E:\GitHub\红包领奖\RedPackets3.0\UI\obj\Debug\UI.pdb
 E:\GitHub\RandyCode\RedPackets\UI\obj\Debug\UI.csprojResolveAssemblyReference.cache
-E:\GitHub\RandyCode\RedPackets\UI\obj\Debug\UI.dll
 E:\GitHub\RandyCode\RedPackets\UI\bin\Log4Net.config
 E:\GitHub\RandyCode\RedPackets\UI\bin\UI.dll.config
 E:\GitHub\RandyCode\RedPackets\UI\bin\UI.dll
@@ -634,4 +633,5 @@ E:\GitHub\RandyCode\RedPackets\UI\bin\zh-Hans\System.Web.Razor.resources.dll
 E:\GitHub\RandyCode\RedPackets\UI\bin\zh-Hans\System.Web.WebPages.resources.dll
 E:\GitHub\RandyCode\RedPackets\UI\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
 E:\GitHub\RandyCode\RedPackets\UI\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
+E:\GitHub\RandyCode\RedPackets\UI\obj\Debug\UI.dll
 E:\GitHub\RandyCode\RedPackets\UI\obj\Debug\UI.pdb

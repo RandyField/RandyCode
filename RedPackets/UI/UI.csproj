@@ -21,6 +21,8 @@
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
     <TargetFrameworkProfile />
+    <Use64BitIISExpress />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -135,6 +137,8 @@
     <Compile Include="Controllers\ConundrumController.cs" />
     <Compile Include="Controllers\DoubleElevenController.cs" />
     <Compile Include="Controllers\Gome\GomeBirthdayController.cs" />
+    <Compile Include="Controllers\Gome\GomeGameController.cs" />
+    <Compile Include="Controllers\HUAWEI\HUAWEIController.cs" />
     <Compile Include="Controllers\YLC\DragonBoatController.cs" />
     <Compile Include="Controllers\GameCountController.cs" />
     <Compile Include="Controllers\GetJsonUserInfoController.cs" />
@@ -226,7 +230,17 @@
     <Content Include="Content\image\DragonBoat\OutOfDate.jpg" />
     <Content Include="Content\image\GDBank\hadreceived.jpg" />
     <Content Include="Content\image\GDBank\notice.jpg" />
+    <Content Include="Content\image\GomeBirthday\E.jpg" />
+    <Content Include="Content\image\GomeBirthday\F.jpg" />
+    <Content Include="Content\image\GomeBirthday\G.jpg" />
+    <Content Include="Content\image\GomeBirthday\H.jpg" />
     <Content Include="Content\image\GomeBirthday\hadattend.jpg" />
+    <Content Include="Content\image\GomeBirthday\hadattend1.jpg" />
+    <Content Include="Content\image\GomeBirthday\I.jpg" />
+    <Content Include="Content\image\GomeBirthday\J.jpg" />
+    <Content Include="Content\image\GomeBirthday\K.jpg" />
+    <Content Include="Content\image\GomeBirthday\L.jpg" />
+    <Content Include="Content\image\GomeBirthday\M.jpg" />
     <Content Include="Content\image\GomeBirthday\OutOfDate.jpg" />
     <Content Include="Content\image\GomeBirthday\Nogift.jpg" />
     <Content Include="Content\image\GomeBirthday\A.jpg" />
@@ -234,6 +248,35 @@
     <Content Include="Content\image\GomeBirthday\C.jpg" />
     <Content Include="Content\image\GomeBirthday\D.jpg" />
     <Content Include="Content\image\GomeBirthday\btnclick.png" />
+    <Content Include="Content\image\GomeGame\A.jpg" />
+    <Content Include="Content\image\GomeGame\B.jpg" />
+    <Content Include="Content\image\GomeGame\btnclick.png" />
+    <Content Include="Content\image\GomeGame\C.jpg" />
+    <Content Include="Content\image\GomeGame\D.jpg" />
+    <Content Include="Content\image\GomeGame\E.jpg" />
+    <Content Include="Content\image\GomeGame\F.jpg" />
+    <Content Include="Content\image\GomeGame\G.jpg" />
+    <Content Include="Content\image\GomeGame\H.jpg" />
+    <Content Include="Content\image\GomeGame\hadattend.jpg" />
+    <Content Include="Content\image\GomeGame\I.jpg" />
+    <Content Include="Content\image\GomeGame\J.jpg" />
+    <Content Include="Content\image\GomeGame\K.jpg" />
+    <Content Include="Content\image\GomeGame\L.jpg" />
+    <Content Include="Content\image\GomeGame\M.jpg" />
+    <Content Include="Content\image\GomeGame\Nogift.jpg" />
+    <Content Include="Content\image\GomeGame\OutOfDate.jpg" />
+    <Content Include="Content\image\HUAWEI\A.jpg" />
+    <Content Include="Content\image\HUAWEI\B.jpg" />
+    <Content Include="Content\image\HUAWEI\C.jpg" />
+    <Content Include="Content\image\HUAWEI\D.jpg" />
+    <Content Include="Content\image\HUAWEI\E.jpg" />
+    <Content Include="Content\image\HUAWEI\F.jpg" />
+    <Content Include="Content\image\HUAWEI\G.jpg" />
+    <Content Include="Content\image\HUAWEI\H.jpg" />
+    <Content Include="Content\image\HUAWEI\hadattend.jpg" />
+    <Content Include="Content\image\HUAWEI\btnclick.png" />
+    <Content Include="Content\image\HUAWEI\Nogift.jpg" />
+    <Content Include="Content\image\HUAWEI\OutOfDate.jpg" />
     <Content Include="Content\image\JD11\A.png" />
     <Content Include="Content\image\JD11\B.png" />
     <Content Include="Content\image\JD11\C.png" />
@@ -615,6 +658,13 @@
     <Content Include="Views\GomeBirthday\Nogift.cshtml" />
     <Content Include="Views\GomeBirthday\OutOfDate.cshtml" />
     <Content Include="Views\GomeBirthday\Activity.cshtml" />
+    <Content Include="Views\GomeGame\Activity.cshtml" />
+    <Content Include="Views\GomeGame\HadAttend.cshtml" />
+    <Content Include="Views\GomeGame\Nogift.cshtml" />
+    <Content Include="Views\HUAWEI\Activity.cshtml" />
+    <Content Include="Views\HUAWEI\HadAttend.cshtml" />
+    <Content Include="Views\HUAWEI\Nogift.cshtml" />
+    <Content Include="Views\HUAWEI\OutOfDate.cshtml" />
     <None Include="Views\RgPark\Received.cshtml" />
     <Content Include="Views\Riddle\Activity.cshtml" />
     <Content Include="Views\Riddle\HadAttend.cshtml" />

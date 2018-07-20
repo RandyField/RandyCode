@@ -188,7 +188,9 @@ E:\GitHub\RandyCode\RedPackets\Interface\bin\Debug\log4net.dll
 E:\GitHub\RandyCode\RedPackets\Interface\bin\Debug\Untility.dll
 E:\GitHub\RandyCode\RedPackets\Interface\bin\Debug\Newtonsoft.Json.dll
 E:\GitHub\RandyCode\RedPackets\Interface\bin\Debug\Common.pdb
+E:\GitHub\RandyCode\RedPackets\Interface\bin\Debug\Common.dll.config
 E:\GitHub\RandyCode\RedPackets\Interface\bin\Debug\EFModel.pdb
+E:\GitHub\RandyCode\RedPackets\Interface\bin\Debug\EFModel.dll.config
 E:\GitHub\RandyCode\RedPackets\Interface\bin\Debug\Model.pdb
 E:\GitHub\RandyCode\RedPackets\Interface\bin\Debug\EntityFramework.xml
 E:\GitHub\RandyCode\RedPackets\Interface\bin\Debug\log4net.xml
@@ -196,5 +198,6 @@ E:\GitHub\RandyCode\RedPackets\Interface\bin\Debug\Untility.pdb
 E:\GitHub\RandyCode\RedPackets\Interface\bin\Debug\Newtonsoft.Json.xml
 E:\GitHub\RandyCode\RedPackets\Interface\bin\Debug\zh-Hans\EntityFramework.resources.dll
 E:\GitHub\RandyCode\RedPackets\Interface\obj\Debug\Interface.csprojResolveAssemblyReference.cache
+E:\GitHub\RandyCode\RedPackets\Interface\obj\Debug\Interface.csproj.CoreCompileInputs.cache
 E:\GitHub\RandyCode\RedPackets\Interface\obj\Debug\Interface.dll
 E:\GitHub\RandyCode\RedPackets\Interface\obj\Debug\Interface.pdb

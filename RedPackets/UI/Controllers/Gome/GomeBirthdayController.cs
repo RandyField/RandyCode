@@ -12,9 +12,6 @@ namespace UI.Controllers.Gome
 {
     public class GomeBirthdayController : BaseController
     {
-        #region 单人微信 限领取一次
-
-        #endregion
         private const string enter_url = "http://www.chinazhihuiping.com/wxredpackets/GomeBirthday/Activity";
         private const string wx_url = "http://www.chinazhihuiping.com/wxredpackets/GomeBirthday/WXActivity";
         private const string money_url = "http://www.chinazhihuiping.com/wxredpackets/GomeBirthday/GiveMoney";
@@ -41,7 +38,16 @@ namespace UI.Controllers.Gome
                         {"卡通扇子笔","B"},
                         {"卡通卡套","C"},
                         {"卡通记事本","D"},
-                        {"开瓶器","E"}
+                        {"开瓶器","E"},
+                        //增加
+                        {"购物车","G"},
+                        {"扇子笔","H"},
+                        {"卡套","I"},
+                        {"开瓶器1","J"},
+                        {"电动风扇","K"},
+                        {"记事本","L"},
+                        {"卡通水杯","M"}
+
         };
 
         #region 发实物奖品
@@ -117,7 +123,7 @@ namespace UI.Controllers.Gome
                 #region 重定向至微信授权URL
 
                 ///90的中奖概率
-                if (GetByProbability(0.9f))
+                if (GetByProbability(1.0f))
                 {
 
 
@@ -136,6 +142,7 @@ namespace UI.Controllers.Gome
                 }
                 else
                 {
+                    Common.Helper.Logger.Info("没有中奖");
                     return View("Nogift"); 
                 }
             }
@@ -185,7 +192,7 @@ namespace UI.Controllers.Gome
 
                 #region 今天已参加活动
 
-                if (isAttendToday(request.activityId, wxUser.Openid, 1))
+                if (isAttendToday(request.activityId, wxUser.Openid, 2))
                 {
                     //判断奖品是否已领
                     var receivedModel = awardDi.getBll().hadTakeAward(wxUser.Openid, request.activityId);
@@ -260,6 +267,14 @@ namespace UI.Controllers.Gome
                 {
                     //请求奖品
                     AwardsInfoModel awardsModel = GetAwardsInfo(request.activityId);
+
+                    if (string.IsNullOrWhiteSpace(awardsModel.Class))
+                    {
+                        Initialize(request.activityId);
+                        //奖品初始化
+
+                        awardsModel = GetAwardsInfo(request.activityId);
+                    }
 
                     //奖品的Class不为空
                     if (awardsModel.Class != null)

@@ -274,11 +274,15 @@ E:\GitHub\RandyCode\RedPackets\NinjectDI\bin\Debug\log4net.dll
 E:\GitHub\RandyCode\RedPackets\NinjectDI\bin\Debug\Untility.dll
 E:\GitHub\RandyCode\RedPackets\NinjectDI\bin\Debug\Newtonsoft.Json.dll
 E:\GitHub\RandyCode\RedPackets\NinjectDI\bin\Debug\BLL.pdb
+E:\GitHub\RandyCode\RedPackets\NinjectDI\bin\Debug\BLL.dll.config
 E:\GitHub\RandyCode\RedPackets\NinjectDI\bin\Debug\DAL.pdb
+E:\GitHub\RandyCode\RedPackets\NinjectDI\bin\Debug\DAL.dll.config
 E:\GitHub\RandyCode\RedPackets\NinjectDI\bin\Debug\Interface.pdb
 E:\GitHub\RandyCode\RedPackets\NinjectDI\bin\Debug\Ninject.xml
 E:\GitHub\RandyCode\RedPackets\NinjectDI\bin\Debug\Common.pdb
+E:\GitHub\RandyCode\RedPackets\NinjectDI\bin\Debug\Common.dll.config
 E:\GitHub\RandyCode\RedPackets\NinjectDI\bin\Debug\EFModel.pdb
+E:\GitHub\RandyCode\RedPackets\NinjectDI\bin\Debug\EFModel.dll.config
 E:\GitHub\RandyCode\RedPackets\NinjectDI\bin\Debug\Model.pdb
 E:\GitHub\RandyCode\RedPackets\NinjectDI\bin\Debug\EntityFramework.xml
 E:\GitHub\RandyCode\RedPackets\NinjectDI\bin\Debug\log4net.xml
@@ -286,5 +290,6 @@ E:\GitHub\RandyCode\RedPackets\NinjectDI\bin\Debug\Untility.pdb
 E:\GitHub\RandyCode\RedPackets\NinjectDI\bin\Debug\Newtonsoft.Json.xml
 E:\GitHub\RandyCode\RedPackets\NinjectDI\bin\Debug\zh-Hans\EntityFramework.resources.dll
 E:\GitHub\RandyCode\RedPackets\NinjectDI\obj\Debug\NinjectDI.csprojResolveAssemblyReference.cache
+E:\GitHub\RandyCode\RedPackets\NinjectDI\obj\Debug\NinjectDI.csproj.CoreCompileInputs.cache
 E:\GitHub\RandyCode\RedPackets\NinjectDI\obj\Debug\NinjectDI.dll
 E:\GitHub\RandyCode\RedPackets\NinjectDI\obj\Debug\NinjectDI.pdb

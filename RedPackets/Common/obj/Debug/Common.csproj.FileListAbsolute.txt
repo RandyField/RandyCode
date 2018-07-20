@@ -156,5 +156,6 @@ E:\GitHub\RandyCode\RedPackets\Common\bin\Debug\log4net.xml
 E:\GitHub\RandyCode\RedPackets\Common\bin\Debug\Ninject.xml
 E:\GitHub\RandyCode\RedPackets\Common\bin\Debug\Newtonsoft.Json.xml
 E:\GitHub\RandyCode\RedPackets\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
+E:\GitHub\RandyCode\RedPackets\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
 E:\GitHub\RandyCode\RedPackets\Common\obj\Debug\Common.dll
 E:\GitHub\RandyCode\RedPackets\Common\obj\Debug\Common.pdb

@@ -39,6 +39,6 @@ E:\GitHub\红包领奖\RedPackets3.0\Model\obj\Debug\Model.dll
 E:\GitHub\红包领奖\RedPackets3.0\Model\obj\Debug\Model.pdb
 E:\GitHub\RandyCode\RedPackets\Model\bin\Debug\Model.dll
 E:\GitHub\RandyCode\RedPackets\Model\bin\Debug\Model.pdb
-E:\GitHub\RandyCode\RedPackets\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+E:\GitHub\RandyCode\RedPackets\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
 E:\GitHub\RandyCode\RedPackets\Model\obj\Debug\Model.dll
 E:\GitHub\RandyCode\RedPackets\Model\obj\Debug\Model.pdb

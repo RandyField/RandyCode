@@ -24,5 +24,6 @@ E:\GitHub\RandyCode\RedPackets\Senparc.Weixin.MP\Senparc.Weixin.MP\bin\Debug\Hig
 E:\GitHub\RandyCode\RedPackets\Senparc.Weixin.MP\Senparc.Weixin.MP\bin\Debug\Hightop.Weixin.dll
 E:\GitHub\RandyCode\RedPackets\Senparc.Weixin.MP\Senparc.Weixin.MP\bin\Debug\Hightop.Weixin.pdb
 E:\GitHub\RandyCode\RedPackets\Senparc.Weixin.MP\Senparc.Weixin.MP\obj\Debug\Senparc.Weixin.MP.csprojResolveAssemblyReference.cache
+E:\GitHub\RandyCode\RedPackets\Senparc.Weixin.MP\Senparc.Weixin.MP\obj\Debug\Senparc.Weixin.MP.csproj.CoreCompileInputs.cache
 E:\GitHub\RandyCode\RedPackets\Senparc.Weixin.MP\Senparc.Weixin.MP\obj\Debug\Hightop.Weixin.MP.dll
 E:\GitHub\RandyCode\RedPackets\Senparc.Weixin.MP\Senparc.Weixin.MP\obj\Debug\Hightop.Weixin.MP.pdb

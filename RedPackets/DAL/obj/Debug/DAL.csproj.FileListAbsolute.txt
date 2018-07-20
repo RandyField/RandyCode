@@ -217,7 +217,9 @@ E:\GitHub\RandyCode\RedPackets\DAL\bin\Debug\Untility.dll
 E:\GitHub\RandyCode\RedPackets\DAL\bin\Debug\log4net.dll
 E:\GitHub\RandyCode\RedPackets\DAL\bin\Debug\Newtonsoft.Json.dll
 E:\GitHub\RandyCode\RedPackets\DAL\bin\Debug\Common.pdb
+E:\GitHub\RandyCode\RedPackets\DAL\bin\Debug\Common.dll.config
 E:\GitHub\RandyCode\RedPackets\DAL\bin\Debug\EFModel.pdb
+E:\GitHub\RandyCode\RedPackets\DAL\bin\Debug\EFModel.dll.config
 E:\GitHub\RandyCode\RedPackets\DAL\bin\Debug\Interface.pdb
 E:\GitHub\RandyCode\RedPackets\DAL\bin\Debug\Model.pdb
 E:\GitHub\RandyCode\RedPackets\DAL\bin\Debug\Untility.pdb
@@ -226,5 +228,6 @@ E:\GitHub\RandyCode\RedPackets\DAL\bin\Debug\log4net.xml
 E:\GitHub\RandyCode\RedPackets\DAL\bin\Debug\Newtonsoft.Json.xml
 E:\GitHub\RandyCode\RedPackets\DAL\bin\Debug\zh-Hans\EntityFramework.resources.dll
 E:\GitHub\RandyCode\RedPackets\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+E:\GitHub\RandyCode\RedPackets\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
 E:\GitHub\RandyCode\RedPackets\DAL\obj\Debug\DAL.dll
 E:\GitHub\RandyCode\RedPackets\DAL\obj\Debug\DAL.pdb

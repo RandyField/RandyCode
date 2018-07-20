@@ -106,5 +106,6 @@ E:\GitHub\RandyCode\RedPackets\EFModel\bin\Debug\Model.pdb
 E:\GitHub\RandyCode\RedPackets\EFModel\bin\Debug\EntityFramework.xml
 E:\GitHub\RandyCode\RedPackets\EFModel\bin\Debug\zh-Hans\EntityFramework.resources.dll
 E:\GitHub\RandyCode\RedPackets\EFModel\obj\Debug\EFModel.csprojResolveAssemblyReference.cache
+E:\GitHub\RandyCode\RedPackets\EFModel\obj\Debug\EFModel.csproj.CoreCompileInputs.cache
 E:\GitHub\RandyCode\RedPackets\EFModel\obj\Debug\EFModel.dll
 E:\GitHub\RandyCode\RedPackets\EFModel\obj\Debug\EFModel.pdb
