@@ -255,11 +255,8 @@ E:\GitHub\RandyCode\RedPackets\BLL\bin\Debug\Untility.dll
 E:\GitHub\RandyCode\RedPackets\BLL\bin\Debug\EntityFramework.dll
 E:\GitHub\RandyCode\RedPackets\BLL\bin\Debug\Newtonsoft.Json.dll
 E:\GitHub\RandyCode\RedPackets\BLL\bin\Debug\Common.pdb
-E:\GitHub\RandyCode\RedPackets\BLL\bin\Debug\Common.dll.config
 E:\GitHub\RandyCode\RedPackets\BLL\bin\Debug\DAL.pdb
-E:\GitHub\RandyCode\RedPackets\BLL\bin\Debug\DAL.dll.config
 E:\GitHub\RandyCode\RedPackets\BLL\bin\Debug\EFModel.pdb
-E:\GitHub\RandyCode\RedPackets\BLL\bin\Debug\EFModel.dll.config
 E:\GitHub\RandyCode\RedPackets\BLL\bin\Debug\Interface.pdb
 E:\GitHub\RandyCode\RedPackets\BLL\bin\Debug\Model.pdb
 E:\GitHub\RandyCode\RedPackets\BLL\bin\Debug\Ninject.xml
@@ -269,6 +266,5 @@ E:\GitHub\RandyCode\RedPackets\BLL\bin\Debug\EntityFramework.xml
 E:\GitHub\RandyCode\RedPackets\BLL\bin\Debug\Newtonsoft.Json.xml
 E:\GitHub\RandyCode\RedPackets\BLL\bin\Debug\zh-Hans\EntityFramework.resources.dll
 E:\GitHub\RandyCode\RedPackets\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
-E:\GitHub\RandyCode\RedPackets\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
 E:\GitHub\RandyCode\RedPackets\BLL\obj\Debug\BLL.dll
 E:\GitHub\RandyCode\RedPackets\BLL\obj\Debug\BLL.pdb

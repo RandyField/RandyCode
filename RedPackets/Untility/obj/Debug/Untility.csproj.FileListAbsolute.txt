@@ -107,6 +107,6 @@ E:\GitHub\RandyCode\RedPackets\Untility\bin\Debug\System.Net.Http.Formatting.xml
 E:\GitHub\RandyCode\RedPackets\Untility\bin\Debug\zh-Hans\System.Web.Http.resources.dll
 E:\GitHub\RandyCode\RedPackets\Untility\bin\Debug\zh-Hans\System.Net.Http.resources.dll
 E:\GitHub\RandyCode\RedPackets\Untility\bin\Debug\zh-Hans\System.Net.Http.Formatting.resources.dll
-E:\GitHub\RandyCode\RedPackets\Untility\obj\Debug\Untility.csproj.CoreCompileInputs.cache
 E:\GitHub\RandyCode\RedPackets\Untility\obj\Debug\Untility.dll
 E:\GitHub\RandyCode\RedPackets\Untility\obj\Debug\Untility.pdb
+E:\GitHub\RandyCode\RedPackets\Untility\obj\Debug\Untility.csprojResolveAssemblyReference.cache

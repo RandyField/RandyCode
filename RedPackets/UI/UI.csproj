@@ -138,6 +138,7 @@
     <Compile Include="Controllers\DoubleElevenController.cs" />
     <Compile Include="Controllers\Gome\GomeBirthdayController.cs" />
     <Compile Include="Controllers\Gome\GomeGameController.cs" />
+    <Compile Include="Controllers\Gome\GomeGeliController.cs" />
     <Compile Include="Controllers\HUAWEI\HUAWEIController.cs" />
     <Compile Include="Controllers\YLC\DragonBoatController.cs" />
     <Compile Include="Controllers\GameCountController.cs" />
@@ -265,6 +266,18 @@
     <Content Include="Content\image\GomeGame\M.jpg" />
     <Content Include="Content\image\GomeGame\Nogift.jpg" />
     <Content Include="Content\image\GomeGame\OutOfDate.jpg" />
+    <Content Include="Content\image\GomeGeli\B.jpg" />
+    <Content Include="Content\image\GomeGeli\btnclick.png" />
+    <Content Include="Content\image\GomeGeli\C.jpg" />
+    <Content Include="Content\image\GomeGeli\D.jpg" />
+    <Content Include="Content\image\GomeGeli\E.jpg" />
+    <Content Include="Content\image\GomeGeli\F.jpg" />
+    <Content Include="Content\image\GomeGeli\G.jpg" />
+    <Content Include="Content\image\GomeGeli\hadattend.jpg" />
+    <Content Include="Content\image\GomeGeli\K.jpg" />
+    <Content Include="Content\image\GomeGeli\N.jpg" />
+    <Content Include="Content\image\GomeGeli\Nogift.jpg" />
+    <Content Include="Content\image\GomeGeli\OutOfDate.jpg" />
     <Content Include="Content\image\HUAWEI\A.jpg" />
     <Content Include="Content\image\HUAWEI\B.jpg" />
     <Content Include="Content\image\HUAWEI\C.jpg" />
@@ -665,6 +678,10 @@
     <Content Include="Views\HUAWEI\HadAttend.cshtml" />
     <Content Include="Views\HUAWEI\Nogift.cshtml" />
     <Content Include="Views\HUAWEI\OutOfDate.cshtml" />
+    <Content Include="Views\GomeGeli\Activity.cshtml" />
+    <Content Include="Views\GomeGeli\HadAttend.cshtml" />
+    <Content Include="Views\GomeGeli\Nogift.cshtml" />
+    <Content Include="Views\GomeGeli\OutOfDate.cshtml" />
     <None Include="Views\RgPark\Received.cshtml" />
     <Content Include="Views\Riddle\Activity.cshtml" />
     <Content Include="Views\Riddle\HadAttend.cshtml" />
