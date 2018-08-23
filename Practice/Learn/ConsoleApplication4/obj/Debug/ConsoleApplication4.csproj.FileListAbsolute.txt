@@ -1,0 +1,6 @@
+E:\GitHub\RandyCode\Practice\Learn\ConsoleApplication4\bin\Debug\ConsoleApplication4.exe.config
+E:\GitHub\RandyCode\Practice\Learn\ConsoleApplication4\bin\Debug\ConsoleApplication4.exe
+E:\GitHub\RandyCode\Practice\Learn\ConsoleApplication4\bin\Debug\ConsoleApplication4.pdb
+E:\GitHub\RandyCode\Practice\Learn\ConsoleApplication4\obj\Debug\ConsoleApplication4.csprojResolveAssemblyReference.cache
+E:\GitHub\RandyCode\Practice\Learn\ConsoleApplication4\obj\Debug\ConsoleApplication4.exe
+E:\GitHub\RandyCode\Practice\Learn\ConsoleApplication4\obj\Debug\ConsoleApplication4.pdb

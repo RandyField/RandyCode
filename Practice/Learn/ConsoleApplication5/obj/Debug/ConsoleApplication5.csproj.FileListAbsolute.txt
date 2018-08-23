@@ -1,0 +1,5 @@
+E:\GitHub\RandyCode\Practice\Learn\ConsoleApplication5\bin\Debug\ConsoleApplication5.exe.config
+E:\GitHub\RandyCode\Practice\Learn\ConsoleApplication5\bin\Debug\ConsoleApplication5.exe
+E:\GitHub\RandyCode\Practice\Learn\ConsoleApplication5\bin\Debug\ConsoleApplication5.pdb
+E:\GitHub\RandyCode\Practice\Learn\ConsoleApplication5\obj\Debug\ConsoleApplication5.exe
+E:\GitHub\RandyCode\Practice\Learn\ConsoleApplication5\obj\Debug\ConsoleApplication5.pdb
