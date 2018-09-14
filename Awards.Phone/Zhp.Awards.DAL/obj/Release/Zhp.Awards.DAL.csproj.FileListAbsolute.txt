@@ -71,6 +71,9 @@ E:\GitHub\RandyCode\Awards.Phone\Zhp.Awards.DAL\bin\Release\Zhp.Awards.Model.pdb
 E:\GitHub\RandyCode\Awards.Phone\Zhp.Awards.DAL\bin\Release\Dapper.xml
 E:\GitHub\RandyCode\Awards.Phone\Zhp.Awards.DAL\bin\Release\Untility.pdb
 E:\GitHub\RandyCode\Awards.Phone\Zhp.Awards.DAL\bin\Release\Newtonsoft.Json.xml
-E:\GitHub\RandyCode\Awards.Phone\Zhp.Awards.DAL\obj\Release\Zhp.Awards.DAL.csprojResolveAssemblyReference.cache
 E:\GitHub\RandyCode\Awards.Phone\Zhp.Awards.DAL\obj\Release\Zhp.Awards.DAL.dll
 E:\GitHub\RandyCode\Awards.Phone\Zhp.Awards.DAL\obj\Release\Zhp.Awards.DAL.pdb
+E:\GitHub\RandyCode\Awards.Phone\Zhp.Awards.DAL\bin\Release\Zhp.Awards.Common.dll.config
+E:\GitHub\RandyCode\Awards.Phone\Zhp.Awards.DAL\obj\Release\Zhp.Awards.DAL.csprojAssemblyReference.cache
+E:\GitHub\RandyCode\Awards.Phone\Zhp.Awards.DAL\obj\Release\Zhp.Awards.DAL.csproj.CoreCompileInputs.cache
+E:\GitHub\RandyCode\Awards.Phone\Zhp.Awards.DAL\obj\Release\Zhp.Awards.DAL.csproj.CopyComplete

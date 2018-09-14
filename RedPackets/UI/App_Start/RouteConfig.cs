@@ -18,7 +18,7 @@ namespace UI
                 url: "{controller}/{action}/{id}",
                 //defaults: new { controller = "Spring", action = "Activity", id = UrlParameter.Optional }
 
-                defaults: new { controller = "ChinaGold", action = "Activity", id = UrlParameter.Optional }
+                defaults: new { controller = "CreateQr", action = "Index", id = UrlParameter.Optional }
             );
         }
     }

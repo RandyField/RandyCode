@@ -26,3 +26,5 @@ E:\GitHub\RandyCode\Awards.Phone\Zhp.Awards.IDAL\bin\Release\Dapper.xml
 E:\GitHub\RandyCode\Awards.Phone\Zhp.Awards.IDAL\obj\Release\Zhp.Awards.IDAL.csprojResolveAssemblyReference.cache
 E:\GitHub\RandyCode\Awards.Phone\Zhp.Awards.IDAL\obj\Release\Zhp.Awards.IDAL.dll
 E:\GitHub\RandyCode\Awards.Phone\Zhp.Awards.IDAL\obj\Release\Zhp.Awards.IDAL.pdb
+E:\GitHub\RandyCode\Awards.Phone\Zhp.Awards.IDAL\obj\Release\Zhp.Awards.IDAL.csprojAssemblyReference.cache
+E:\GitHub\RandyCode\Awards.Phone\Zhp.Awards.IDAL\obj\Release\Zhp.Awards.IDAL.csproj.CoreCompileInputs.cache

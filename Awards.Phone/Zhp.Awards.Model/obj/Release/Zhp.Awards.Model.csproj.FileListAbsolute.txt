@@ -15,6 +15,7 @@ E:\GitHub\Zhp.Awards.Phone\Zhp.Awards.Model\obj\Release\Zhp.Awards.Model.pdb
 E:\GitHub\Zhp.Awards.Phone\Zhp.Awards.Model\obj\Release\Zhp.Awards.Model.csprojResolveAssemblyReference.cache
 E:\GitHub\RandyCode\Awards.Phone\Zhp.Awards.Model\bin\Release\Zhp.Awards.Model.dll
 E:\GitHub\RandyCode\Awards.Phone\Zhp.Awards.Model\bin\Release\Zhp.Awards.Model.pdb
-E:\GitHub\RandyCode\Awards.Phone\Zhp.Awards.Model\obj\Release\Zhp.Awards.Model.csprojResolveAssemblyReference.cache
 E:\GitHub\RandyCode\Awards.Phone\Zhp.Awards.Model\obj\Release\Zhp.Awards.Model.dll
 E:\GitHub\RandyCode\Awards.Phone\Zhp.Awards.Model\obj\Release\Zhp.Awards.Model.pdb
+E:\GitHub\RandyCode\Awards.Phone\Zhp.Awards.Model\obj\Release\Zhp.Awards.Model.csprojAssemblyReference.cache
+E:\GitHub\RandyCode\Awards.Phone\Zhp.Awards.Model\obj\Release\Zhp.Awards.Model.csproj.CoreCompileInputs.cache

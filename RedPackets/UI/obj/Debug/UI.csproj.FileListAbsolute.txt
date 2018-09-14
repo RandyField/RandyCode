@@ -635,3 +635,10 @@ E:\GitHub\RandyCode\RedPackets\UI\bin\zh-Hans\System.Web.WebPages.Deployment.res
 E:\GitHub\RandyCode\RedPackets\UI\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
 E:\GitHub\RandyCode\RedPackets\UI\obj\Debug\UI.dll
 E:\GitHub\RandyCode\RedPackets\UI\obj\Debug\UI.pdb
+E:\GitHub\RandyCode\RedPackets\UI\bin\zxing.dll
+E:\GitHub\RandyCode\RedPackets\UI\bin\zxing.presentation.dll
+E:\GitHub\RandyCode\RedPackets\UI\bin\zxing.pdb
+E:\GitHub\RandyCode\RedPackets\UI\bin\zxing.xml
+E:\GitHub\RandyCode\RedPackets\UI\bin\zxing.presentation.pdb
+E:\GitHub\RandyCode\RedPackets\UI\bin\zxing.presentation.xml
+E:\GitHub\RandyCode\RedPackets\UI\bin\ThoughtWorks.QRCode.dll

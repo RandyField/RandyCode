@@ -398,6 +398,12 @@ E:\GitHub\RandyCode\Awards.Phone\Zhp.Awards.Activity\bin\zh-Hans\Microsoft.Owin.
 E:\GitHub\RandyCode\Awards.Phone\Zhp.Awards.Activity\bin\zh-Hans\Microsoft.Owin.Security.Twitter.resources.dll
 E:\GitHub\RandyCode\Awards.Phone\Zhp.Awards.Activity\bin\zh-Hans\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
 E:\GitHub\RandyCode\Awards.Phone\Zhp.Awards.Activity\bin\zh-Hans\System.Web.Http.Owin.resources.dll
-E:\GitHub\RandyCode\Awards.Phone\Zhp.Awards.Activity\obj\Release\Zhp.Awards.Activity.csprojResolveAssemblyReference.cache
 E:\GitHub\RandyCode\Awards.Phone\Zhp.Awards.Activity\obj\Release\Zhp.Awards.Activity.dll
 E:\GitHub\RandyCode\Awards.Phone\Zhp.Awards.Activity\obj\Release\Zhp.Awards.Activity.pdb
+E:\GitHub\RandyCode\Awards.Phone\Zhp.Awards.Activity\bin\Zhp.Awards.Activity.dll.config
+E:\GitHub\RandyCode\Awards.Phone\Zhp.Awards.Activity\bin\Zhp.Awards.BLL.dll.config
+E:\GitHub\RandyCode\Awards.Phone\Zhp.Awards.Activity\bin\Zhp.Awards.Common.dll.config
+E:\GitHub\RandyCode\Awards.Phone\Zhp.Awards.Activity\bin\Zhp.Awards.DAL.dll.config
+E:\GitHub\RandyCode\Awards.Phone\Zhp.Awards.Activity\obj\Release\Zhp.Awards.Activity.csprojAssemblyReference.cache
+E:\GitHub\RandyCode\Awards.Phone\Zhp.Awards.Activity\obj\Release\Zhp.Awards.Activity.csproj.CoreCompileInputs.cache
+E:\GitHub\RandyCode\Awards.Phone\Zhp.Awards.Activity\obj\Release\Zhp.Awards.Activity.csproj.CopyComplete

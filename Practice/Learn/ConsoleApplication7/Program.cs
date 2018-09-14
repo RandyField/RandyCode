@@ -17,6 +17,8 @@ namespace ConsoleApplication7
                 {
                     //Console.WriteLine(Thread.CurrentThread.ManageThreadId.ToString());
                 });
+
+                System.Timers.Timer timer = new System.Timers.Timer ()
             }
         }
     }
